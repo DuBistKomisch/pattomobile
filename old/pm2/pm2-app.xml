@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><application xmlns="http://ns.adobe.com/air/application/1.5">
+  <id>dbk.pm2</id>
+  <version>0.10</version>
+  <filename>pm2</filename>
+  <name>Pattomobile 2: School's Out</name>
+  <description>The long awaited sequel to Pattomobile! Patto is back for more misadventure in an even more nonsensical storyline. Once again in the middle of an evil plot for world domination, Patto must overcome insurmountable odds and occasional dodgy physics to save the world from the wicked clutches of G. G. Ryan!</description>
+  <copyright>2008-2010 DBK Software</copyright>
+  <initialWindow>
+    <content>pm2.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>false</visible>
+    <maximizable>false</maximizable>
+    <minimizable>true</minimizable>
+    <resizable>false</resizable>
+  </initialWindow>
+  <icon>
+    <image128x128>icons/pm2-128.png</image128x128>
+    <image48x48>icons/pm2-48.png</image48x48>
+    <image32x32>icons/pm2-32.png</image32x32>
+    <image16x16>icons/pm2-16.png</image16x16>
+  </icon>
+  <customUpdateUI>false</customUpdateUI>
+  <allowBrowserInvocation>false</allowBrowserInvocation>
+  <installFolder>DBK Software</installFolder>
+  <programMenuFolder>DBK Software</programMenuFolder>
+</application>

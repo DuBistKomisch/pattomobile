@@ -1,0 +1,30 @@
+<level grav="3" w="1280" h="960" x="640" y="-40" bg="808000" col="FFFF00" kill="FF0000" bounce="FF0080" ep="4" lv="4" name="Boss #2 ~ The Master of Nightmares">
+	<desc>
+It was him!
+
+Time for you to beat him at his own game...
+
+* Touch the blue sparks to send them flying after him
+* If you get hit by him or the yellow sparks you'll get hurt
+* Be prepared for things to get harder as the battle progresses
+	</desc>
+	<surfaces>
+		<rect x="270" y="0" w="540" h="100" r="0" /><!--left roof-->
+		<rect x="1010" y="0" w="540" h="100" r="0" /><!--right roof-->
+		<rect x="0" y="480" w="100" h="980" r="0" /><!--left wall-->
+		<rect x="1280" y="480" w="100" h="980" r="0" /><!--right wall-->
+		<rect x="640" y="960" w="1280" h="100" r="0" /><!--floor-->
+		
+		<rect x="100" y="885" w="100" h="50" id="-2" />
+		<rect x="200" y="885" w="100" h="50" id="-3" />
+		<rect x="300" y="885" w="100" h="50" id="-4" />
+		<rect x="400" y="885" w="100" h="50" id="-5" />
+		<rect x="1180" y="885" w="100" h="50" id="-2" />
+		<rect x="1080" y="885" w="100" h="50" id="-3" />
+		<rect x="980" y="885" w="100" h="50" id="-4" />
+		<rect x="880" y="885" w="100" h="50" id="-5" />
+	</surfaces>
+	<objects>
+		<boss x="640" y="320" id="mnm"/>
+	</objects>
+</level>1}

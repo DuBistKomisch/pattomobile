@@ -1,0 +1,92 @@
+<level grav="3" w="1000" h="2275" x="100" y="-40" bg="FFFF00" col="808000" kill="FF0000" bounce="FF0080" ep="4" lv="2" name="Multi-tiered">
+	<desc>
+You appear to be trapped in some sort of Nightmare...
+
+Maybe it was something to do with that yellow guy that shot you?
+
+The only way to find out is to keep going!
+
+* You need to go at the right speeds to bounce off the walls correctly
+* If you don't hit all 8 switches you won't be able to exit the level
+	</desc>
+	<surfaces>
+		<rect x="575" y="0" w="850" h="100" r="0" /><!--roof-->
+		<rect x="0" y="1500" w="100" h="3020" r="0" /><!--left wall-->
+		<rect x="1000" y="1087.5" w="100" h="2195" r="0" /><!--right wall-->
+		<rect x="550" y="2275" w="1100" h="100" r="0" /><!--floor-->
+		
+		<!--wall bounce-->
+		<rect x="350" y="325" w="700" h="100" r="0" />
+		<rect x="950" y="175" w="20" h="250" r="0" type="kill" />
+		<rect x="950" y="375" w="20" h="150" r="0" type="bounce" d="300,20" />
+		<rect x="950" y="525" w="20" h="150" r="0" type="kill" />
+		<rect x="860" y="600" w="200" h="20" r="0" type="kill" />
+		
+		<rect x="570" y="650" w="860" h="100" r="0" />
+		<circ x="140" y="650" r="50" />
+		
+		<!--switch platform area-->
+		<rect x="150" y="825" w="200" h="100" />
+		<circ x="250" y="825" r="50" />
+		<rect x="500" y="875" w="230" h="100" />
+		<circ x="385" y="875" r="50" />
+		<circ x="615" y="875" r="50" />
+		<rect x="850" y="925" w="200" h="100" />
+		<circ x="750" y="925" r="50" />
+		<rect x="500" y="1025" w="300" h="100" />
+		<circ x="350" y="1025" r="50" />
+		<circ x="650" y="1025" r="50" />
+		<rect x="125" y="1125" w="150" h="100" />
+		<circ x="200" y="1125" r="50" />
+		<rect x="495" y="1225" w="330" h="100" />
+		<circ x="330" y="1225" r="50" />
+		<circ x="660" y="1225" r="50" />
+		<rect x="875" y="1225" w="150" h="100" />
+		<circ x="800" y="1225" r="50" />
+		<rect x="1000" y="1125" w="100" h="100" type="bounce" d="270,20" />
+		<rect x="125" y="1375" w="150" h="100" />
+		<circ x="200" y="1375" r="50" />
+		<rect x="595" y="1425" w="530" h="100" />
+		<circ x="330" y="1425" r="50" />
+		<circ x="860" y="1425" r="50" />
+		<rect x="150" y="1655" w="200" h="100" />
+		<circ x="250" y="1655" r="50" />
+		<rect x="875" y="1715" w="150" h="100" />
+		<circ x="800" y="1715" r="50" />
+		<rect x="495" y="1775" w="330" h="100" />
+		<circ x="330" y="1775" r="50" />
+		<circ x="660" y="1775" r="50" />
+		<rect x="400" y="1750" w="100" h="50" type="bounce" d="0,20" />
+		<rect x="150" y="1925" w="200" h="100" />
+		<circ x="250" y="1925" r="50" />
+		<rect x="560" y="1975" w="330" h="100" />
+		<circ x="395" y="1975" r="50" />
+		<circ x="725" y="1975" r="50" />
+		
+		<!--locked gates-->
+		<rect x="570" y="2135" w="860" h="100" r="0" />
+		<circ x="140" y="2135" r="50" />
+		<rect x="200" y="2205" w="50" h="40" id="1" col="C08000" />
+		<rect x="300" y="2205" w="50" h="40" id="2" col="C08000" />
+		<rect x="400" y="2205" w="50" h="40" id="3" col="C08000" />
+		<rect x="500" y="2205" w="50" h="40" id="4" col="C08000" />
+		<rect x="600" y="2205" w="50" h="40" id="5" col="C08000" />
+		<rect x="700" y="2205" w="50" h="40" id="6" col="C08000" />
+		<rect x="800" y="2205" w="50" h="40" id="7" col="C08000" />
+		<rect x="900" y="2205" w="50" h="40" id="8" col="C08000" />
+	</surfaces>
+	<objects>
+		<exit x="1200" y="2275" w="100" h="500" />
+		<switch x="880" y="786" id="1" />
+		<switch x="120" y="986" id="2" />
+		<switch x="880" y="1086" id="3" />
+		<switch x="120" y="1246" id="4" />
+		<switch x="861" y="1566" id="5" />
+		<switch x="120" y="1516" id="6" />
+		<switch x="120" y="1786" id="7" />
+		<switch x="860" y="1996" id="8" />
+		<graphic id="arrow" x="450" y="760" w="1" h="1" r="90" behind="true" />
+		<graphic id="arrow" x="450" y="1325" w="1" h="1" r="90" behind="true" />
+		<graphic id="arrow" x="500" y="1625" w="1" h="1" r="315" behind="true" />
+	</objects>
+</level>

@@ -1,0 +1,32 @@
+- get consent for names in credits
+- in-game HUD
+ - level pack/map/name etc.
+ - elapsed/local best time
+  - green/red when better/worse than local best
+ - 'now playing' for music
+- skins screen (9)
+ - stored in level pack
+ - come up with a bunch of components
+  - wheel, pm, patto
+- online interactions
+ - download screen (13)
+ - best times screen (17)
+ - downloaded screen (19)
+- ediot (21)
+ - make open in external window :D
+  - this will fix many keypress issues
+  - adjust event listening to always handle PlayEvent(GameType.EDIOT)
+ - better solution for detecting where clicking
+ - snapping settings
+ - properties tool
+ - implement EdiotLineSurface
+ - resize tool
+  - use vertices
+  - snapping
+ - zooming while panning
+ - undo
+  - return to older level data
+ - clipboard
+  - context menu
+- objects
+ - moving platforms

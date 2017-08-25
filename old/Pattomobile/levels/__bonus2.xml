@@ -1,0 +1,78 @@
+<level grav="3" w="2000" h="10000" x="1000" y="9940" bg="FF80C0" col="FF0080" kill="FF0000" bounce="FF0080" ep="7" lv="2" name="Jumping Castle">
+	<desc>
+How high can you bounce?
+
+Can you reach the top?
+	</desc>
+	<surfaces>
+		<rect x="1000" y="10000" w="2000" h="100" type="bounce" d="0,10" r="0" /><!--floor-->
+		<rect x="0" y="0" w="100" h="20020" type="bounce" d="90,20" r="0" /><!--left wall-->
+		<rect x="2000" y="0" w="100" h="20020" type="bounce" d="270,20" r="0" /><!--right wall-->
+		
+		<!--bouncey circles lol-->
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		<circ x="100?1900" y="100?9900" r="50" type="bounce" d="0, 20" />
+		
+		<circ x="100" y="9950" r="100" type="fake" col="FF0080" />
+		<circ x="300" y="9950" r="100" type="fake" col="FF0080" />
+		<circ x="500" y="9950" r="100" type="fake" col="FF0080" />
+		<circ x="700" y="9950" r="100" type="fake" col="FF0080" />
+		<circ x="900" y="9950" r="100" type="fake" col="FF0080" />
+		<circ x="1100" y="9950" r="100" type="fake" col="FF0080" />
+		<circ x="1300" y="9950" r="100" type="fake" col="FF0080" />
+		<circ x="1500" y="9950" r="100" type="fake" col="FF0080" />
+		<circ x="1700" y="9950" r="100" type="fake" col="FF0080" />
+		<circ x="1900" y="9950" r="100" type="fake" col="FF0080" />
+	</surfaces>
+	<objects>
+		<exit x="1000" y="-500" w="2000" h="200" />
+	</objects>
+</level>10

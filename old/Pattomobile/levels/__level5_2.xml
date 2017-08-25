@@ -1,0 +1,108 @@
+<level grav="3" w="640" h="1060" x="320" y="-40" bg="000040" col="808080" kill="FF0000" bounce="FF0080" fake="000040" ep="5" lv="2" name="Heading Down">
+	<desc>
+So you have a new ability?
+
+Aswell as allowing you to pass through some surfaces,
+It also slightly reduces the effect of gravity!
+
+Oh, and it can also give you a British accent if you use it too much
+
+So why don't you practice a bit before rescuing Patto?
+	</desc>
+	<surfaces>
+		<rect x="-40" y="530" w="100" h="1080" r="0" /><!--left wall-->
+		<rect x="680" y="530" w="100" h="1080" r="0" /><!--right wall-->
+		
+		<rect x="320" y="200" w="180" h="40" ghost="true" />
+		<rect x="320" y="420" w="260" h="40" ghost="true" />
+		<rect x="100" y="240" w="180" h="40" ghost="true" />
+		<rect x="540" y="240" w="180" h="40" ghost="true" />
+		<rect x="100" y="340" w="180" h="40" ghost="true" />
+		<rect x="540" y="340" w="180" h="40" ghost="true" />
+		<rect x="100" y="380" w="180" h="40" type="kill" />
+		<rect x="540" y="380" w="180" h="40" type="kill" />
+		<rect x="210" y="290" w="40" h="220" />
+		<rect x="430" y="290" w="40" h="220" />
+		<circ x="320" y="290" r="25" type="kill" />
+		<circ x="320" y="510" r="25" type="kill" />
+		<rect x="320" y="600" w="260" h="40" />
+		<rect x="320" y="640" w="260" h="40" ghost="true" />
+		<rect x="120" y="680" w="220" h="40" />
+		<rect x="520" y="680" w="220" h="40" />
+		<circ x="320" y="750" r="25" type="kill" />
+		<rect x="320" y="860" w="260" h="40" ghost="true" />
+		<rect x="320" y="900" w="180" h="40" type="kill" />
+		<rect x="120" y="900" w="220" h="40" ghost="true" />
+		<rect x="520" y="900" w="220" h="40" ghost="true" />
+		<rect x="120" y="1000" w="220" h="40" ghost="true" />
+		<rect x="520" y="1000" w="220" h="40" ghost="true" />
+		<circ x="230" y="1020" r="40" />
+		<circ x="410" y="1020" r="40" />
+		<rect x="120" y="1040" w="220" h="40" type="kill" />
+		<rect x="520" y="1040" w="220" h="40" type="kill" />
+	</surfaces>
+	<objects>
+		<exit x="320" y="1260" w="200" h="50" />
+		
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="90?550" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="moon" x="160" y="150" w="1" h="1" fixed="true" />
+		
+		<graphic id="window" x="320" y="30" w="640" h="80" behind="true" />
+		<graphic id="window" x="320" y="310" w="640" h="80" behind="true" />
+		<graphic id="window" x="320" y="590" w="640" h="80" behind="true" />
+		<graphic id="window" x="320" y="870" w="640" h="80" behind="true" />
+		
+		<graphic id="window" x="40" y="530" w="80" h="1060" behind="true" />
+		<graphic id="window" x="320" y="530" w="80" h="1060" behind="true" />
+		<graphic id="window" x="600" y="530" w="80" h="1060" behind="true" />
+	</objects>
+</level>1Y

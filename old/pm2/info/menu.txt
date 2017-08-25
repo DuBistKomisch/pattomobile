@@ -1,0 +1,31 @@
+Options
+ - Controls
+ - Output
+ - General
+Extras
+ - Cutscenes
+ - Skins
+ - ...Stuff?
+ * (Ediot)
+Play Game
+ - New Game
+ - Load Game
+@^ Download
+ + (Select Level)
+ - (View Cutscene)
+Info
+ - Credits
+ - Licence
+ - Contact
+Highscores
+@+>Best Times
++^>Replays
+@^>Downloaded
+
+Screen Key:
+ - : Dead End
+ + : Game Normal
+ ^ : Game Downloaded
+ * : Game Ediot
+  >: Replay
+@  : Online

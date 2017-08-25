@@ -1,0 +1,40 @@
+<level grav="3" w="2000" h="480" x="87.5" y="-100" px="87.5" py="-400" bg="333333" col="999999" kill="FF0000" bounce="FF0080" fake="999999" ep="3" lv="1" name="Escape from Pattoville">
+	<desc>
+You must now escape and avoid being killed!
+
+You descend into Patto's Basement...
+
+* Press TAB to switch between controlling the Pattomobile and Patto
+* Use the arrow keys to make Patto fly around
+* The Pattomobile can't drive as fast with Patto on it
+	</desc>
+	<surfaces>
+		<rect x="0" y="-10" w="50" h="1000" r="0" /><!--left wall-->
+		<rect x="150" y="-260" w="50" h="500" r="0" /><!--left wall-->
+		<rect x="75" y="-510" w="150" h="50" r="0" /><!--high roof-->
+		<rect x="2000" y="240" w="50" h="500" r="0" /><!--right wall-->
+		<rect x="1075" y="480" w="1850" h="50" r="0" /><!--floor-->
+		<rect x="1075" y="0" w="1850" h="50" r="0" /><!--roof-->
+		<rect x="87.5" y="480" w="125" h="50" r="0" col="664422" id="4" /><!--trapdoor floor-->
+		
+		<rect x="1250" y="285" h="50" w="500" type="kill" />
+		<circ x="500" y="315" r="100" />
+		<circ x="1000" y="315" r="100" />
+		<rect x="750" y="110" w="500" h="50" />
+		<circ x="750" y="750" r="320" id="3" />
+		<rect x="750" y="480" w="100" h="50" type="bounce" d="0,10" />
+		<rect x="500" y="222.5" h="275" w="100" />
+		<rect x="1525" y="335" h="50" w="1050" />
+		<rect x="1000" y="222.5" h="275" w="100" />
+		<rect x="1500" y="185" h="350" w="100" id="2" />
+		<rect x="500" y="450" h="100" w="100" id="1" />
+		<rect x="1500" y="310" h="70.71" w="70.71" r="45" />
+	</surfaces>
+	<objects>
+		<exit x="75" y="600" w="300" h="100" />
+		<switch x="1250" y="150" id="1" />
+		<switch x="1927.5" y="407.5" id="2" />
+		<switch x="1750" y="200" id="3" />
+		<switch x="750" y="200" id="4" />
+	</objects>
+</level>1}

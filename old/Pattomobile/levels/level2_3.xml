@@ -1,0 +1,63 @@
+<level grav="3" w="9000" h="480" x="-100" y="430" bg="CC6600" col="008000" kill="FF0000" bounce="FF0080" fake="884400" ep="2" lv="3" name="Into the Woods">
+	<desc>
+You have made it to the forest near your house.
+
+Be careful as night approaches...
+
+* Purple land will bounce you around, use it to your advantage!
+* Not everything is solid, you may be able to go through it
+* That massive yellow star will unlock an extra if you can touch it
+	</desc>
+	<surfaces>
+		<rect x="-200" y="240" w="50" h="500" r="0" /><!--left wall-->
+		<rect x="900" y="480" w="2200" h="60" r="0" />
+		<rect x="1000" y="480" w="300" h="60" r="0" type="bounce" d="0,10" />
+		<rect x="1975" y="480" w="150" h="60" r="0" type="bounce" d="0,10" />
+		<rect x="2250" y="600" w="800" h="50" r="0" type="kill" />
+		<rect x="2800" y="350" w="100" h="250" type="fake" />
+		<circ x="2800" y="100" r="150" />
+		<rect x="3500" y="300" w="100" h="300" col="994400" />
+		<rect x="3400" y="250" w="200" h="75" col="994400" />
+		<rect x="3575" y="300" w="150" h="75" col="994400" />
+		<rect x="4050" y="250" w="100" h="400" col="994400" />
+		<rect x="3950" y="300" w="200" h="75" col="994400" />
+		<rect x="4125" y="250" w="150" h="75" col="994400" />
+		<rect x="3500" y="480" w="2200" h="60" r="0" />
+		<rect x="3150" y="480" w="100" h="60" r="0" type="bounce" d="0,25" />
+		<rect x="3750" y="480" w="100" h="60" r="0" type="bounce" d="0,15" />
+		<rect x="4075" y="400" w="50" h="100" r="0" type="bounce" d="90,40" />
+		<rect x="4600" y="480" w="200" h="100" r="160" />
+		<rect x="6250" y="600" w="3500" h="50" r="0" type="bounce" d="0,15" />
+		<rect x="5500" y="400" w="100" h="300" col="994400" />
+		<rect x="5400" y="350" w="200" h="75" col="994400" />
+		<rect x="5600" y="400" w="200" h="75" col="994400" />
+		<circ x="5500" y="150" r="120" type="fake" col="008000" />
+		<rect x="5525" y="325" w="50" h="75" r="0" type="bounce" d="90,40" />
+		<rect x="5780" y="368" w="200" h="75" r="160" col="994400" />
+		<rect x="6500" y="400" w="100" h="300" col="994400" />
+		<rect x="6400" y="300" w="200" h="75" col="994400" />
+		<rect x="6650" y="400" w="200" h="75" col="994400" />
+		<circ x="6500" y="150" r="120" type="fake" col="008000" />
+		<circ x="6750" y="400" r="50" />
+		<rect x="7500" y="430" w="100" h="200" col="994400" />
+		<rect x="7400" y="450" w="200" h="75" col="994400" />
+		<rect x="7650" y="380" w="200" h="75" col="994400" />
+		<circ x="7500" y="280" r="120" type="fake" col="008000" />
+		<rect x="8250" y="350" w="100" h="250" type="fake" />
+		<rect x="8450" y="350" w="100" h="250" type="fake" />
+		<rect x="8600" y="350" w="100" h="250" type="fake" />
+		<rect x="8850" y="350" w="100" h="250" type="fake" />
+		<circ x="8250" y="50" r="200" />
+		<circ x="8450" y="50" r="200" />
+		<circ x="8600" y="50" r="200" />
+		<circ x="8850" y="50" r="200" />
+		<rect x="8750" y="480" w="1500" h="60" r="0" />
+	</surfaces>
+	<objects>
+		<exit x="9300" y="240" w="100" h="500" />
+		<graphic id="evening" x="0" y="0" w="1" h="1" r="0" fixed="true" />
+		<graphic id="minion_shifty" x="7500" y="150" w="1" h="1" r="0" behind="true" />
+		<extra x="2250" y="50" r="50" id="level7_2" />
+		<graphic id="hazard_bounce" x="2800" y="400" w="1" h="1" />
+	</objects>
+</level>

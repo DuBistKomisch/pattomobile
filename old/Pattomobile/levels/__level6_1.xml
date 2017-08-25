@@ -1,0 +1,64 @@
+<level grav="3" w="4000" h="480" x="120" y="410" bg="000080" col="008000" kill="FF0000" bounce="FF0080" fake="004000" ep="6" lv="1" name="The Invasion has begun!">
+	<desc>
+This must have been what The Boss was talking about!
+
+They kidnapped Patto so that they could make an army of robot clones...
+
+(This world wasn't even big enough for one Patto...)
+
+You must stop them at any cost!
+	</desc>
+	<surfaces>
+		<rect x="-50" y="240" w="100" h="1000" /><!--left wall-->
+		<rect x="2950" y="240" w="100" h="100000" id="1" col="664422" /><!--middle wall-->
+		<rect x="2950" y="190" w="100" h="400" col="664422" /><!--proper middle wall-->
+		<rect x="3900" y="240" w="100" h="100000" id="2" col="664422" /><!--right wall-->
+		<rect x="3400" y="-50" w="1000" h="100" /><!--right roof-->
+		<rect x="1000" y="480" w="2000" h="100" /><!--floor 1-->
+		<rect x="2850" y="480" w="900" h="100" /><!--floor 2-->
+		<rect x="3425" y="480" w="250" h="100" ghost="true" /><!--floor 3 ghost-->
+		<rect x="3425" y="480" w="250" h="50" type="bounce" d="0,15" /><!--floor 3 bounce-->
+		<rect x="3775" y="480" w="450" h="100" /><!--floor 4-->
+		
+		<rect x="2200" y="590" w="400" h="100" type="kill" />
+		<rect x="2200" y="590" w="400" h="100" type="kill" />
+		
+		<rect x="350" y="480" w="100" h="100" type="kill" />
+		<rect x="900" y="210" w="100" h="440" type="kill" />
+		
+		<rect x="1400" y="410" w="200" h="40" type="kill" />
+		<rect x="1300" y="430" w="70.71" h="70.71" r="45" />
+		<rect x="1500" y="430" w="70.71" h="70.71" r="45" />
+		
+		<rect x="2040" y="495" w="100" h="100" r="10" type="bounce" d="10,20" />
+		<rect x="2360" y="495" w="100" h="100" r="170" type="bounce" d="350,20" />
+		
+		<rect x="3425" y="15" w="400" h="50" type="kill" />
+		<rect x="3425" y="15" w="400" h="50" type="kill" />
+		<rect x="3425" y="15" w="400" h="50" type="kill" />
+		<rect x="3225" y="-10" w="70.71" h="70.71" r="45" />
+		<rect x="3625" y="-10" w="70.71" h="70.71" r="45" />
+	</surfaces>
+	<objects>
+		<exit x="4150" y="240" w="100" h="1000" />
+		<switch x="1400" y="440" id="1" />
+		<switch x="3425" y="-15" id="2" />
+		<graphic id="window" x="2200" y="460" w="400" h="60" behind="true" r="0" />
+		<graphic id="house" x="250" y="430" w="1" h="1" fixed="true" />
+		<graphic id="house2" x="100" y="430" w="2" h="2" fixed="true" />
+		<graphic id="house2" x="350" y="430" w="-1.5" h="1.5" fixed="true" />
+		<graphic id="house" x="500" y="430" w="2.5" h="2.5" fixed="true" />
+		<graphic id="house2" x="700" y="430" w="-3" h="3" fixed="true" />
+		<graphic id="house2" x="1050" y="430" w="10" h="10" behind="true" />
+		<graphic id="house" x="2300" y="430" w="10" h="10" behind="true" />
+		<patto type="bounce" x="700" y="200" vx="-2" vy="0" />
+		<patto type="bounce" x="700" y="100" vx="0" vy="0" />
+		<patto type="bounce" x="2700" y="20" vx="0" vy="0" />
+		<patto type="bounce" x="3200" y="90?110" vx=".05" vy="0" />
+		<patto type="bounce" x="3425" y="90?110" vx="-.05" vy="0" />
+		<patto type="bounce" x="3650" y="90?110" vx=".05" vy="0" />
+		<graphic id="window" x="240" y="350" w="20" h="300" behind="true" r="0" />
+		<graphic id="hazard_patto" x="240" y="200" w="1" h="1" r="0" behind="true" />
+		<graphic id="hazard_lava" x="240" y="320" w="1" h="1" r="0" behind="true" />
+	</objects>
+</level>1:

@@ -1,0 +1,30 @@
+<level grav="3" w="6000" h="2000" x="240" y="240" bg="404040" col="808080" fake="FF0000" kill="FF0000" bounce="FF0080" ep="7" lv="8" name="Catch a Ride">
+	<desc>
+Feeling tired?
+
+Then hop on top of a Pattobot and let them do all the work!
+	</desc>
+	<surfaces>
+		<rect x="0" y="1000" w="100" h="2020" />
+		<rect x="6000" y="1305" w="100" h="1410" />
+		
+		<rect x="240" y="285" w="480" h="50" />
+		<rect x="240" y="1155" w="320" h="1690" type="fake" />
+		
+		<rect x="1760" y="375" w="480" h="50" />
+		<rect x="1760" y="1200" w="320" h="1600" type="fake" />
+		
+		<rect x="4000" y="465" w="480" h="50" />
+		<rect x="4000" y="1290" w="320" h="1600" type="fake" />
+		
+		<rect x="5000" y="2000" w="10000" h="100" type="kill" />
+	</surfaces>
+	<objects>
+		<patto type="laser" x="800" y="340" minx="0" maxx="1600" int="10000" />
+		<patto type="laser" x="2320" y="430" minx="1250" maxx="4000" int="10000" />
+		<patto type="laser" x="4560" y="520" minx="3500" maxx="6500" int="10000" />
+		<graphic id="hazard_lava" x="240" y="160" w="1" h="1" behind="true" />
+		<graphic id="hazard_patto" x="480" y="160" w="1" h="1" behind="true" />
+		<exit x="6200" y="1000" w="200" h="2020" />
+	</objects>
+</level>

@@ -1,0 +1,74 @@
+<level grav="3" w="1280" h="1960" x="100" y="1910" px="100" py="1860" txtcol="FFFFFF" bg="333333" col="000000" kill="FF0000" bounce="FF0080" fake="666666" ep="3" lv="4" name="Boss #1 ~ Blue Ghost Minion">
+	<desc>
+Only one final challenge to go!
+
+But wait... What's going on?
+
+This shouldn't be here!
+
+* To battle with the boss, just smash into him while trying to avoid getting hit by him
+* Whoever runs out of health first loses!
+* Hit the 6th switch with the Pattomobile while Patto is in the top room
+	</desc>
+	<surfaces>
+		<rect x="640" y="-40" w="1280" h="100" /><!--roof-->
+		<rect x="640" y="960" w="1280" h="50" id="-6" /><!--id roof-->
+		<rect x="240" y="960" w="500" h="100" /><!--left roof-->
+		<circ x="490" y="960" r="50" /><!--left roof curve-->
+		<rect x="1040" y="960" w="500" h="100" /><!--right roof-->
+		<circ x="790" y="960" r="50" /><!--right roof curve-->
+		<rect x="590" y="2000" w="1380" h="100" /><!--floor-->
+		<rect x="1320" y="980" w="100" h="1960" /><!--right wall-->
+		<rect x="-40" y="980" w="100" h="1960" /><!--left wall-->
+
+		<rect x="640" y="1275" w="100" h="250" /><!--center wall-->
+		<rect x="640" y="1325" w="100" h="350" id="5" /><!--center wall-->
+		<rect x="640" y="1150" w="300" h="50" /><!--center floor-->
+		<circ x="490" y="1150" r="25" /><!--center floor curve 1-->
+		<rect x="477.5" y="1075" w="25" h="150" id="5" /><!--center id 1-->
+		<circ x="790" y="1150" r="25" /><!--center floor curve 2-->
+		<rect x="802.5" y="1075" w="25" h="150" id="5" /><!--center id 2-->
+		<circ x="640" y="1400" r="50" /><!--center curve-->
+		<circ x="640" y="1500" r="60" id="5" /><!--center curve id-->
+
+		<rect x="250" y="1835" w="100" h="150" /><!--left shield-->
+		<circ x="250" y="1760" r="50" /><!--left shield curve-->
+		<rect x="1030" y="1835" w="100" h="150" /><!--right shield-->
+		<rect x="1155" y="1735" w="250" h="50" /><!--right shield top-->
+		<circ x="1030" y="1760" r="50" /><!--right shield curve-->
+
+		<circ x="400" y="2130" r="200" id="2" /><!--left bounce cover id-->
+		<circ x="400" y="2130" r="190" type="bounce" d="0,40" /><!--left bounce-->
+		<circ x="880" y="2130" r="200" id="4" /><!--right bounce cover id-->
+		<circ x="880" y="2130" r="190" type="bounce" d="0,40" /><!--right bounce-->
+
+		<rect x="250" y="1415" w="100" h="110" /><!--left area-->
+		<rect x="275" y="1180" w="50" h="360" id="1" /><!--left area id-->
+		<rect x="162.5" y="1335" w="175" h="50" /><!--left area top-->
+		<rect x="125" y="1585" w="250" h="50" /><!--left area bottom-->
+		<rect x="150" y="1535" w="300" h="50" /><!--left area bottom 2-->
+		<circ x="250" y="1360" r="50" /><!--left area curve 1-->
+		<circ x="250" y="1560" r="50" /><!--left area curve 2-->
+		<circ x="75" y="1335" r="25" /><!--left area curve 3-->
+
+		<rect x="1030" y="1415" w="100" h="110" /><!--right area-->
+		<rect x="1005" y="1180" w="50" h="360" id="3" /><!--right area id-->
+		<rect x="1117.5" y="1335" w="175" h="50" /><!--right area top-->
+		<rect x="1155" y="1585" w="250" h="50" /><!--right area bottom-->
+		<rect x="1130" y="1535" w="300" h="50" /><!--right area bottom 2-->
+		<circ x="1030" y="1360" r="50" /><!--right area curve 1-->
+		<circ x="1030" y="1560" r="50" /><!--right area curve 2-->
+		<circ x="1205" y="1335" r="25" /><!--right area curve 3-->
+	</surfaces>
+	<objects>
+		<switch x="1175" y="1861" id="1" />
+		<switch x="105" y="1105" id="2" />
+		<switch x="125" y="1421" id="3" />
+		<switch x="1175" y="1105" id="4" />
+		<switch x="1155" y="1421" id="5" />
+		<switch x="640" y="1500" id="6" />
+		<boss x="640" y="500" id="bgm" t="6"/>
+		<extra x="640" y="1050" r="50" id="level7_5" />
+		<graphic id="arrow" x="640" y="1100" w="1" h="1" r="0" behind="true" />
+	</objects>
+</level>1i

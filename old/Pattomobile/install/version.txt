@@ -1,0 +1,93 @@
+-=- Pattomobile Version History -=-
+
+v.1.3 r5
+(25.II.2008)
+(10 bugfixes, 4 modifications, 4 addition)
+[add] -- Made bonus level #3: Skate Park
+[add] -- Made bonus skin "Invisible" (maybe 'made' isn't the right word...)
+[add] -- Added bonus cutscene for beating every bonus level
+[add] -- Made bananas fly around in the menu background after game completed
+[mod] -- Changed bonus level #8 so that riding the LaserPattos is more possible
+[mod] -- Got rid of bumpy tops of roofs in level 2-4
+[mod] -- Made bouncing off the wall easier in level 4-2
+[mod] -- Put half-pipe in level 2-1
+[fix] -- Cutscene 6-4 is now unlocked after 6-4 instead of 6-3
+[fix] -- The 'ghostmobile' glow is now not positioned a frame behind
+[fix] -- Fixed exit in level 2-4
+[fix] -- Fixed a couple of typos
+[fix] -- Fixed bug that caused extra levels to be managed incorrectly
+[fix] -- Fixed bug where game says all bonus levels beaten when any is completed
+[fix] -- Fixed bug that caused level to not load if game not beaten
+[fix] -- Fixed bug that occassionally crashes game when cleaning up after level
+[fix] -- Fixed crash error when you collect an extra
+[fix] -- Fixed replay sorting for numbers and dates
+
+v.1.2.2 r4
+(17.II.2008)
+(4 bugfixes, 1 modifications, 0 addition)
+[mod] -- Made level 6-4 easier
+[fix] -- You can no longer change level file names to cheat! (Suck on that, Jeremy)
+[fix] -- Fixed bug where at the end of level 4-4 the game would simply 'hang'
+[fix] -- Crash bugs actually quit the application after you close the error alert
+[fix] -- Update Check now shows ? as new version on error
+
+v.1.2.1 r3
+(8.II.2008)
+(5 bugfixes, 3 modifications, 1 addition)
+[add] -- Added glowy fields to hoverpads
+[mod] -- Level files are now encrypted (no more cheating!)
+[mod] -- Graphics quality cannot be set to "BEST" if using "Flame" skin at normal game speed
+[mod] -- Changed Ghostmobile colour for "Flame" skin from green to black
+[fix] -- Made Blue Ghost Minion actually damagable (3-4, 7-5)
+[fix] -- Fixed error #1009 with BouncePattos (6-1, 7-6)
+[fix] -- "Patto" skin is now unlocked in proper order (5-4 instead of 3-4)
+[fix] -- Fixed exit size in level 5-4
+[fix] -- Made level 2-2 possible without Ghostmobile
+
+v.1.2 r2
+(3.II.2008)
+(7 bugfixes, 6 modifications, 10 additions)
+[add] -- Due to incompatible physics, a separate list of replays is used
+[add] -- The user is now notified when an Error is thrown (for bug reporting)
+[add] -- Made bonus level #1: Jungle Hi-jinx
+[add] -- Made bonus level #4: This is just getting ridiculous!
+[add] -- Made bonus level #5: Anti-gravity Chamber
+[add] -- Made bonus level #6: Mmmm... Squishy stuff!
+[add] -- Finished bonus level #9 with new objects and exit
+[add] -- Made new skin #9: "Flame"
+[add] -- Update Check will now show current version and the updated version numbers
+[add] -- Background Music and Sound Effects settings added to 'Options' menu
+[mod] -- COMPLETE re-write of physics implementation
+[mod] -- Physics ported from APE v0.2 to v0.45a
+[mod] -- Tweaked many levels so that they work with new physics
+[mod] -- Bouncers are much less violent and more realistic
+[mod] -- Graphics quality will go to HIGH if at BEST when "Flame" skin is selected
+[mod] -- Bonus levels #2 and #7 now have exits
+[fix] -- Fixed bug where screen 'flickers' when the level starts
+[fix] -- Fixed bug where wheels in skin "Wired" turn the wrong direction
+[fix] -- Many objects have much better performance because of restructuring
+[fix] -- New removal queue prevents objects from being removed during collision checking
+[fix] -- Fixed redraw errors in Car, LaserPatto, and Extra objects
+[fix] -- Created 'cleanup' system which prevents various internal errors
+[fix] -- Fixed many problems with the installer and uninstaller
+
+v.1.1 r1
+(26.I.2008)
+(2 bugfixes, 7 modifications, 4 additions)
+[add] -- Time Trial mode (remembers best completion time)
+[add] -- Made bonus level #8: Catch a Ride
+[add] -- Made bonus level #9: When the laws of physics go out the window
+[add] -- Put hazard signs in many levels
+[mod] -- New replay format (replays converted automatically)
+[mod] -- Edited level 5-3
+[mod] -- Edited level 6-4
+[mod] -- Game Speed option now changes frameRate rather than deltaTime
+[mod] -- Update Check provides a hyperlink if new version is availiable
+[mod] -- ActionScript files are now external for easier editing by me
+[mod] -- Slight improvements for keypress system
+[fix] -- Update Check text no longer selectable
+[fix] -- Replay sizes now shown correctly (not as '0.1 kb')
+
+v.1 r0
+(12.I.2008)
+-- first non-beta release

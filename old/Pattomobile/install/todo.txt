@@ -1,0 +1,43 @@
+-=- Pattomobile To Do List -=-
+
+These are the ideas I have for Pattomobile, of course any suggestions are welcome and will be considered.
+
+√. Port physics to APE v0.45a
+	¤ currently is v0.2
+	√ more organisation of particles
+	√ create 'cleanup' methods for each object
+	√ sort objects into groups:
+		√ fixed: don't move at all, can't collide with each other (RectangleSurface, Switch, Exit, etc.)
+		√ mobile: can move freely and collide with each other aswell as fixed and other (Car, LaserPatto, BGM, etc.)
+		¤ other: have special needs, like only colliding with particular objects (Bridge, Squish, etc.)
+√. Create various new physics objects
+	√ 'squishy' surfaces: a polygon of spring constraints with extra tension
+	¤ realistic bridge: some sort of strengthening?
+	√ better bouncy blocks, not so violent
+	√ Half-pipe (concave curve) for Skate Park
+√. Finish making all bonus levels
+	√ 1: Jungle Hi-jinx
+	√ 2: Jumping Castle
+	√ 3: Skate Park
+	√ 4: This is just getting ridiculous!
+	√ 5: Anti-gravity Chamber
+	√ 6: Mmmm... Squishy stuff!
+	√ 7: It's raining Patto
+	√ 8: Catch a Ride
+	√ 9: When the laws of physics go out the window
+√. Make 2 bonus skins
+	√ 8: Flame
+	√ 9: Invisible
+√. Make bonus cutscene
+	√ reward for unlocking everything else
+	√ spazo patto
+√. Maybe some better graphics?
+	√ glowy fields for bouncers and hoverpads etc.
+	¤ more detail in backgrounds, rather than just plain colours
+	¤ the efficiency of APE v0.45a should allow for more vector graphics
+¤. Audio!
+	¤ Collect good music for levels
+	¤ Record sound effects from Alex
+	¤ Create some sort of sound system
+	
+As of Pattomobile v1.3 r5, the game is finished.

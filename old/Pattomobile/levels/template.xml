@@ -1,0 +1,11 @@
+<level grav="3" w="640" h="480" x="320" y="240" bg="000000" col="808080" kill="FF0000" bounce="FF0080" ep="" lv="" name="">
+	<desc>
+
+	</desc>
+	<surfaces>
+		
+	</surfaces>
+	<objects>
+		<exit x="" y="" w="" h="" />
+	</objects>
+</level>

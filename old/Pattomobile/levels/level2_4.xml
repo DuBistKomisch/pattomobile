@@ -1,0 +1,132 @@
+<level grav="3" w="9800" h="480" x="200" y="150" bg="000040" col="999999" kill="FF0000" bounce="FF0080" fake="999999" ep="2" lv="4" name="Pattoville">
+	<desc>
+You're so close! and yet so far...
+
+All you've got to do is get over the rooftops to your house
+
+* Your house is the one with a garden out the front
+* Try to keep your speed up as you're going over the rooftops
+* You can re-watch any unlocked cutscenes in the EXTRAS menu
+	</desc>
+	<surfaces>
+		<rect x="-25" y="240" w="50" h="5000" r="0" /><!--left wall-->
+		<rect x="9825" y="240" w="50" h="5000" r="0" /><!--right wall-->
+		<rect x="5000" y="480" w="10000" h="60" r="0" />
+		
+		<!--first house-->
+		<rect x="250" y="350" w="500" h="200" col="664422" />
+		<rect x="700" y="480" w="100" h="60" type="bounce" d="0,25" />
+		<rect x="250" y="250" w="550" h="100" r="5" col="994422" />
+		<rect x="0" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="200" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="400" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		
+		<!--second house-->
+		<rect x="1500" y="350" w="1000" h="200" col="664422" />
+		<rect x="1250" y="250" w="525" h="100" r="175" col="994422" />
+		<rect x="1750" y="250" w="525" h="100" r="5" col="994422" />
+		<rect x="1250" y="250" w="550" h="100" r="175" col="994422" type="fake" />
+		<rect x="1750" y="250" w="550" h="100" r="5" col="994422" type="fake" />
+		<rect x="2050" y="225" w="100" h="20" r="160" col="994422" />
+		<rect x="2250" y="400" w="10" h="100" col="664422" />
+		<rect x="3100" y="480" w="1700" h="60" type="kill" />
+		<rect x="1125" y="385" w="100" h="130" col="000080" type="fake" />
+		<rect x="1300" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="1500" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="1700" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="1900" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		
+		
+		<!--third house-->
+		<rect x="3200" y="350" w="1000" h="200" col="664422" />
+		<rect x="2950" y="250" w="525" h="100" r="175" col="994422" />
+		<rect x="3450" y="250" w="525" h="100" r="5" col="994422" />
+		<rect x="2950" y="250" w="550" h="100" r="175" col="994422" type="fake" />
+		<rect x="3450" y="250" w="550" h="100" r="5" col="994422" type="fake" />
+		<rect x="3750" y="225" w="100" h="20" r="160" col="994422" />
+		<rect x="3950" y="400" w="10" h="100" col="664422" />
+		<rect x="2825" y="385" w="100" h="130" col="000080" type="fake" />
+		<rect x="3000" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="3200" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="3400" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="3600" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		
+		<!--fourth building-->
+		<rect x="4700" y="350" w="1000" h="200" />
+		<rect x="4950" y="200" w="500" h="100" />
+		<rect x="4450" y="250" w="100" h="10" type="bounce" d="0,15" />
+		<rect x="4450" y="250" w="520" h="20" type="fake" col="666666" />
+		<rect x="4950" y="150" w="520" h="20" type="fake" col="666666" />
+		<rect x="4300" y="375" w="100" h="150" col="CCCC00" type="fake" />
+		<rect x="4500" y="375" w="100" h="150" col="CCCC00" type="fake" />
+		<rect x="4700" y="375" w="100" h="150" col="CCCC00" type="fake" />
+		<rect x="4900" y="325" w="100" h="250" col="CCCC00" type="fake" />
+		<rect x="5100" y="325" w="100" h="250" col="CCCC00" type="fake" />
+		
+		<!--rubbish bin-->
+		<rect x="5300" y="412.5" w="50" h="75" />
+		<rect x="5300" y="375" w="50" h="1" type="bounce" d="0,20" />
+		<rect x="5300" y="380" w="60" h="10" type="fake" col="666666" />
+		<rect x="5300" y="412.5" w="10" h="50" type="fake" col="666666" />
+		<rect x="5285" y="412.5" w="10" h="50" type="fake" col="666666" />
+		<rect x="5315" y="412.5" w="10" h="50" type="fake" col="666666" />
+		
+		<!--fifth building-->
+		<rect x="6150" y="350" w="500" h="200" />
+		<rect x="5650" y="300" w="500" h="300" />
+		<rect x="6700" y="325" w="600" h="250" />
+		<rect x="6300" y="225" w="50" h="50" />
+		<rect x="6275" y="250" w="70.7" h="70.7" r="45" />
+		<rect x="6150" y="250" w="520" h="20" type="fake" col="666666" />
+		<rect x="5650" y="150" w="520" h="20" type="fake" col="666666" />
+		<rect x="6700" y="200" w="620" h="20" type="fake" col="666666" />
+		<rect x="5500" y="325" w="100" h="250" col="CCCC00" type="fake" />
+		<rect x="5700" y="325" w="100" h="250" col="CCCC00" type="fake" />
+		<rect x="5900" y="375" w="100" h="150" col="CCCC00" type="fake" />
+		<rect x="6100" y="375" w="100" h="150" col="CCCC00" type="fake" />
+		<rect x="6300" y="375" w="100" h="150" col="CCCC00" type="fake" />
+		<rect x="6500" y="350" w="100" h="200" col="CCCC00" type="fake" />
+		<rect x="6700" y="350" w="100" h="200" col="CCCC00" type="fake" />
+		<rect x="6900" y="350" w="100" h="200" col="CCCC00" type="fake" />
+		
+		<!--sixth house-->
+		<rect x="7700" y="350" w="1000" h="200" col="664422" />
+		<rect x="7450" y="250" w="550" h="100" r="175" col="994422" />
+		<rect x="7950" y="250" w="550" h="100" r="5" col="994422" />
+		<rect x="8250" y="225" w="100" h="20" r="160" col="994422" />
+		<rect x="7325" y="385" w="100" h="130" col="000080" type="fake" />
+		<rect x="7500" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="7700" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="7900" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		<rect x="8100" y="375" w="100" h="100" col="CCCC00" type="fake" />
+		
+		<!--your garden-->
+		<rect x="8850" y="375" w="50" h="150" col="664422" type="fake" />
+		<rect x="8750" y="375" w="50" h="150" col="664422" type="fake" />
+		<rect x="9000" y="375" w="50" h="150" col="664422" type="fake" />
+		<rect x="9125" y="375" w="50" h="150" col="664422" type="fake" />
+		<circ x="8850" y="300" r="60" col="008000" />
+		<circ x="8750" y="300" r="50" col="008000" />
+		<circ x="9000" y="300" r="80" col="008000" />
+		<circ x="9125" y="300" r="50" col="008000" />
+		<rect x="8979" y="485" w="550" h="80" r="1" col="008000" type="fake" />
+		<rect x="8700" y="400" w="10" h="100" col="664422" type="fake" />
+		
+		<!--your house LOL-->
+		<rect x="9550" y="225" w="515" h="75" r="0" />
+		<rect x="9600" y="350" w="400" h="200" r="0" col="664422" />
+		<rect x="9350" y="350" w="100" h="200" r="0" col="664422" type="fake" />
+		<rect x="9300" y="250" w="100" h="75" r="120" />
+		<rect x="9800" y="250" w="100" h="75" r="60" />
+		<rect x="9400" y="375" w="100" h="150" col="000080" type="fake" />
+		<rect x="9600" y="350" w="200" h="100" col="808000" type="fake" />
+		<rect x="9600" y="350" w="200" h="10" col="664422" type="fake" />
+		<rect x="9600" y="350" w="10" h="100" col="664422" type="fake" />
+		<rect x="9650" y="188" w="150" h="1" type="bounce" d="0,10" />
+	</surfaces>
+	<objects>
+		<exit x="9400" y="375" w="100" h="150" />
+		<graphic id="moon" x="100" y="100" w="1" h="1" r="0" fixed="true" />
+		<extra x="9650" y="100" r="50" id="level7_3" />
+	</objects>
+</level>

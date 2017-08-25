@@ -1,0 +1,23 @@
+<level grav="3" w="3000" h="960" x="110" y="-40" bg="224466" col="664422" kill="FF0000" bounce="FF0080" vine="226644" ep="7" lv="1" name="Jungle Hi-jinx">
+	<desc>
+Welcome to Patto's real home!
+
+Er, yes, he does live in the jungle (sorry if you thought he lived in a bin)
+	</desc>
+	<surfaces>
+		<rect x="0" y="475" w="100" h="970" />
+		<rect x="0" y="960" w="300" h="300" r="45" />
+		<rect x="320" y="960" w="640" h="100" />
+		<rect x="900" y="850" w="620" h="240" />
+		<rect x="640" y="860" w="100" h="100" type="bounce" d="315,20" />
+		<rect x="2800" y="570" w="500" h="800" />
+		
+		<vine x="320" y="-10" l="600" n="10" s=".5" />
+		<vine x="1800" y="-10" l="750" n="20" s=".8" />
+		
+		<rect x="1500" y="1300" w="3000" h="100" type="kill" />
+	</surfaces>
+	<objects>
+		<exit x="3200" y="480" w="100" h="1000" />
+	</objects>
+</level>1a

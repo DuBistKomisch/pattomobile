@@ -1,0 +1,32 @@
+<level grav="3" w="2000" h="2000" x="1000" y="500" bg="FFFF00" col="808000" kill="FF0000" ep="4" lv="1" name="Caged">
+	<desc>
+What's going on?
+
+You are trapped in a cage hanging in a large room, but you notice that it is somehow unlocked
+
+You must now escape or die!
+
+* Press LEFT to move left and RIGHT to move right
+* Red land will kill you if you touch it
+* Don't worry if you flip over, it doesn't matter
+	</desc>
+	<surfaces>
+		<rect x="1000" y="0" w="2000" h="100" r="0" /><!--roof-->
+		<rect x="0" y="1000" w="100" h="2020" r="0" /><!--left wall-->
+		<rect x="2000" y="1000" w="100" h="2020" r="0" /><!--right wall-->
+		<rect x="925" y="2000" w="1850" h="100" r="0" /><!--floor-->
+		
+		<rect x="1000" y="1850" w="500" h="300" r="0" ghost="true" />
+		<rect x="523.25" y="1971.63" w="640.3" h="300" r="155" />
+		<rect x="0" y="1900" w="100.1" h="100" r="0" type="kill" />
+		
+		<rect x="1450" y="1900" w="400" h="200" r="0" ghost="true" />
+		<rect x="1720" y="1915" w="250" h="100" r="36.87" ghost="true" />
+		<rect x="1650" y="1950" w="100" h="100" r="0" ghost="true" />
+	</surfaces>
+	<objects>
+		<exit x="1950" y="2200" w="300" h="100" />
+		<graphic id="cage" x="1000" y="450" w="1" h="1" r="0" />
+		<extra x="1000" y="1850" r="50" id="level7_6" />
+	</objects>
+</level>

@@ -1,0 +1,135 @@
+ 0.01
+Initial test release.
+
+ 0.02 20-JUN-2009
+(3 bugfixes, 0 modifications, 1 addition)
+[add] -- Log viewer.
+[fix] -- Log viewer closes previous window if opened again.
+[fix] -- Splash screen problems on Linux.
+[fix] -- Global keyboard shortcuts are disabled when typing in a text field.
+
+ 0.03 28-SEP-2009
+(0 bugfixes, 1 modification, 4 additions)
+[add] -- Time stamps in debug traces.
+[add] -- Contact menu screen.
+[add] -- License menu screen.
+[add] -- Credits menu screen.
+[mod] -- Updated URLs for online interaction.
+
+ 0.04 29-SEP-2009
+(0 bugfixes, 0 modification, 2 additions)
+[add] -- Load game menu screen.
+[add] -- New game menu screen.
+
+ 0.05 30-SEP-2009
+(0 bugfixes, 1 modification, 1 addition)
+[add] -- Functional test level.
+[mod] -- IGameObject interface to handle objects better.
+
+ 0.06 1-OCT-2009
+(0 bugfixes, 2 modifications, 1 addition)
+[add] -- Collision events.
+[mod] -- Slight friction on surfaces for more realistic movement.
+[mod] -- Expanded test level with new surfaces.
+
+ 0.07 2-OCT-2009
+(2 bugfixes, 1 modification, 3 additions)
+[add] -- Support for non-fixed, -solid, and -visible surfaces.
+[add] -- Fading in gameplay.
+[add] -- Bouncy ball in test level.
+[mod] -- More realism in friction and acceleration.
+ r1
+[fix] -- Re-entering gameplay from menu would cause hang.
+ r2
+[fix] -- Non-fixed surfaces wouldn't be removed when unloading level.
+
+ 0.08 3-OCT-2009
+(0 bugfixes, 1 modification, 2 additions)
+[add] -- Level editor.
+[add] -- Stuff menu screen.
+[mod] -- Log viewer accessible from stuff menu screen.
+
+ 0.09 13-OCT-2009
+(1 bugfix, 3 modifications, 2 additions)
+[add] -- Button to cancel the current operation in Ediot.
+[add] -- Autopan when dragging to edge of screen in Ediot.
+[mod] -- Level editor named Ediot.
+[mod] -- Operations in Ediot now remain active to allow multiple uses.
+[mod] -- Panning is now default action when dragging the screen in Ediot.
+[fix] -- Return to Ediot properly after testing a level.
+
+0.10 11-JAN-2010
+(20 bugfixes, 18 modifications, 24 additions)
+ * General
+[add] -- Surfaces have editable "friction" property.
+[add] -- New level added to game pack "Test Levels".
+[add] -- New cutscene added to game pack "Test Levels".
+[add] -- Select from a list of timestamps of logs in order to browse quickly.
+[mod] -- Splash image includes "(C) 2008-2010".
+[mod] -- Closing main window closes application rather than leaving log open.
+[mod] -- Made log viewer window larger and resizable.
+[mod] -- Mute state remembered between sessions.
+[fix] -- Saved data being lost randomly.
+[fix] -- Would continue loading despite closing splash window.
+ * Menu
+[add] -- Screen for selecting level pack for new game.
+[add] -- List of completed levels from which to select on level select screen.
+[add] -- Screen for watching unlocked cutscenes added to extras menu.
+[add] -- Replays screen in highscores menu to select and watch replays.
+[add] -- "Purge replays" button on general options screen.
+[mod] -- Save files now sorted by default with the most recently played first.
+[mod] -- Load game list displays level pack and progress as a percentage.
+[mod] -- Updated licence text.
+[mod] -- Removed superfluous option to save replays upon getting a highscore.
+[fix] -- Wrong save file would be loaded after selecting on load game screen.
+[fix] -- Incorrect spelling of "licence" in the menu.
+[fix] -- Old product page URL on contact screen.
+[fix] -- Functionality of "purge save files" button on general options screen.
+[fix] -- Key presses being missed after clicking certain UI items.
+[fix] -- Missing clicks on tile lists while still fading screen in.
+ * Gameplay
+[add] -- Support for playing cutscenes after completing a level.
+[add] -- Support for recording and playing back replays.
+[mod] -- Scrolling during gameplay is eased by a factor of 0.25.
+[fix] -- "PATTO" text appeared upside-down during fade-through after dying.
+[fix] -- Blacken screen outside of 4:3 in fullscreen to hide ugly level areas.
+[fix] -- Fadeout effect was missing when leaving gameplay.
+[fix] -- Crash when screen fade animation is disabled and entering gameplay.
+ * Ediot
+[add] -- Status text area shows instructions or name of current operation.
+[add] -- "Delete" tool to remove objects from levels.
+[add] -- "Move" tool to change the position of object.
+[add] -- Move works on whole level by holding control and dragging background.
+[add] -- Borders of objects are highlighted when hovering while using a tool.
+[add] -- "Rotate" tool to spin objects around their centre point.
+[add] -- "Resize" tool to change the shape of surfaces.
+[add] -- "Revert" menu item to reopen the current level without saving.
+[add] -- "Rip" menu item to take level data of beaten levels from level packs.
+[add] -- "Bring to front" tool to bring objects on front of others in a layer.
+[add] -- "Send to back" tool to send objects behind others in a layer.
+[add] -- Snapping for inserting objects.
+[add] -- Snapping for "move" and "rotate" tools.
+[mod] -- Data view font is more readable (larger and monospace).
+[mod] -- View is centred on control character when opening.
+[mod] -- Created a better icon for cancel operation button.
+[mod] -- Autopanning is much smoother, going further outside window speeds up.
+[mod] -- Ellipses added to labels of "open", "rip" and "data" menu items.
+[mod] -- Open list displays file size of level data.
+[mod] -- Default data for new level includes red as default kill surface colour.
+[mod] -- Pressing escape does the same thing as clicking the cancel button.
+[mod] -- Theme music doesn't play while in Ediot.
+[fix] -- Unable to exit and test from Ediot.
+[fix] -- Test levels wouldn't load in some situations.
+[fix] -- Dodgy transitions between screens to and from Ediot.
+[fix] -- Holding spacebar to pan during an operation wouldn't work first time.
+[fix] -- Inadvertent saving when editing in data view or testing level.
+[fix] -- Placing characters still worked when clicking parts of the menu.
+[fix] -- Effects of dragging wouldn't update when dragging outside window.
+[fix] -- Panning level wouldn't work outside of window.
+
+0.11 ??-JAN-2010
+(2 bugfixes, 1 modifications, 0 additions)
+[mod] -- Refined startup procudure to avoid flickering of splash screen.
+[fix] -- Pressing escape in fullscreen would return to window mode.
+[fix] -- Negative dimensions would cause non-solid surfaces.
+[fix] -- Removed extra "delete" from tools menu.

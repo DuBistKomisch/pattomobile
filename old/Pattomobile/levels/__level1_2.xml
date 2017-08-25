@@ -1,0 +1,43 @@
+<level grav="3" w="2000" h="800" x="100" y="-40" txtcol="000000" bg="FFFFFF" col="808080" kill="FF0000" ep="1" lv="2" name="On the Run">
+	<desc>
+You've made it out of your prison cell!
+
+You still have to get out of the building though...
+
+* Try getting a run up to help get over ramps
+* If you get stuck, press R to reset the level or ESC to return to the menu
+	</desc>
+	<surfaces>
+		<rect x="600" y="0" w="800" h="50" r="0" /><!--roof-->
+		<rect x="0" y="400" w="50" h="820" r="0" /><!--left wall-->
+		<rect x="1500" y="237.5" w="1050" h="555" r="0" />
+		<rect x="2000" y="400" w="50" h="820" r="0" /><!--right wall-->
+		<rect x="900" y="800" w="1800" h="50" r="0" /><!--bottom floor-->
+		<rect x="650" y="485" w="700" h="60" r="0" /><!--middle floor-->
+		<rect x="375" y="150" w="750" h="50" r="0" /><!--top floor-->
+		
+		<rect x="300" y="124" w="600" h="50" r="5" />
+		<rect x="-50" y="240" w="600" h="80" r="160" />
+		<rect x="803" y="213" w="200" h="50" r="45" />
+		<rect x="927" y="452" w="200" h="100" r="328" />
+		<rect x="620" y="468" w="175" h="100" r="45" />
+		<rect x="490" y="430" w="250" h="50" r="0" />
+		<rect x="303" y="498" w="200" h="100" r="150" />
+		<rect x="200" y="575" w="200" h="100" r="120" />
+		<rect x="293" y="458" w="165" h="50" r="159.5" />
+		<rect x="75" y="775" w="150" h="50" r="20" />
+		<rect x="756" y="532" w="222" h="50" r="175" />
+		
+		<rect x="600" y="800" w="300" h="50"r="0" type="kill" />
+		<rect x="400" y="800" w="200" h="50" r="160" />
+		<rect x="800" y="800" w="200" h="50" r="20" />
+		
+		<rect x="1300" y="800" w="500" h="50"r="0" type="kill" />
+		<rect x="1000" y="800" w="200" h="50" r="160" />
+		<rect x="1600" y="800" w="200" h="50" r="20" />
+	</surfaces>
+	<objects>
+		<exit x="1950" y="950" w="300" h="100" />
+		<graphic id="hazard_lava" x="350" y="700" w="1" h="1" behind="true" />
+	</objects>
+</level>1i

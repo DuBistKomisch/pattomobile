@@ -1,0 +1,186 @@
+<level grav="3" w="5500" h="480" x="50" y="410" bg="808080" col="404040" kill="FF0000" bounce="FF0080" smash="996633" ep="6" lv="4" name="Boss #3 ~ MEGAPATTO!">
+	<desc>
+A giant mutated pattobot is guarding the Patto-Factory!
+
+Maybe you can find some way of using it to destroy the building?
+
+Oh... and one more thing,
+
+RUN!!!!!!
+	</desc>
+	<surfaces>
+		<rect x="1812.5" y="2720" w="5125" h="4580" /><!--top-level left floor-->
+		<rect x="2500" y="0" w="6000" h="100" /><!--top-level roof-->
+		<rect x="5500" y="240" w="100" h="500" /><!--top-level right wall-->
+		<rect x="4625" y="680" w="500" h="100" id="1" /><!--top-level right id-->
+		<rect x="6475" y="2500" w="3200" h="4140" /><!--column right wall-->
+		<rect x="6175" y="5000" w="2600" h="100" /><!--bottom-level floor-->
+		<rect x="5400" y="4760" w="200" h="400" id="2" /><!--bottom-level id-->
+		<rect x="8000" y="4760" w="100" h="500" /><!--bottom-level right wall-->
+		
+		<!--smashable blocks [top-level]-->
+		<rect x="-50" y="440" w="100" h="100" type="smash" />
+		<rect x="50" y="100" w="100" h="100" type="smash" />
+		<rect x="150" y="250" w="100" h="100" type="smash" />
+		<rect x="300" y="150" w="100" h="100" type="smash" />
+		<rect x="425" y="75" w="100" h="100" type="smash" />
+		<rect x="650" y="380" w="100" h="100" type="smash" />
+		<rect x="800" y="120" w="100" h="100" type="smash" />
+		<rect x="910" y="320" w="100" h="100" type="smash" />
+		<rect x="1100" y="160" w="100" h="100" type="smash" />
+		<rect x="1230" y="390" w="100" h="100" type="smash" />
+		<rect x="1600" y="370" w="100" h="100" type="smash" />
+		<rect x="1630" y="260" w="100" h="100" type="smash" />
+		<rect x="1880" y="100" w="100" h="100" type="smash" />
+		<rect x="1940" y="220" w="100" h="100" type="smash" />
+		<rect x="2140" y="170" w="100" h="100" type="smash" />
+		<rect x="2330" y="450" w="100" h="100" type="smash" />
+		<rect x="2500" y="250" w="100" h="100" type="smash" />
+		<rect x="2610" y="270" w="100" h="100" type="smash" />
+		<rect x="2800" y="130" w="100" h="100" type="smash" />
+		<rect x="2860" y="460" w="100" h="100" type="smash" />
+		<rect x="3000" y="260" w="100" h="100" type="smash" />
+		<rect x="3340" y="130" w="100" h="100" type="smash" />
+		<rect x="3350" y="350" w="100" h="100" type="smash" />
+		<rect x="3550" y="170" w="100" h="100" type="smash" />
+		<rect x="3600" y="330" w="100" h="100" type="smash" />
+		<rect x="3940" y="230" w="100" h="100" type="smash" />
+		<rect x="3990" y="360" w="100" h="100" type="smash" />
+		
+		<rect x="4625" y="140" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4625" y="190" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4625" y="240" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4625" y="290" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4625" y="340" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4525" y="240" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4550" y="265" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4575" y="290" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4600" y="315" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4650" y="315" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4675" y="290" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4700" y="265" w="50" h="50" type="smash" ghost="true" />
+		<rect x="4725" y="240" w="50" h="50" type="smash" ghost="true" />
+		
+		<!--smashable blocks [column]-->
+		<rect x="4475" y="750" w="100" h="100" type="smash" />
+		<rect x="4800" y="850" w="100" h="100" type="smash" />
+		<rect x="4725" y="700" w="100" h="100" type="smash" />
+		
+		<rect x="4525" y="1000" w="100" h="100" type="smash" />
+		<rect x="4625" y="1000" w="100" h="100" type="smash" />
+		<rect x="4725" y="1000" w="100" h="100" type="smash" />
+		<rect x="4825" y="1000" w="100" h="100" type="smash" />
+		<rect x="4525" y="1050" w="100" h="100" type="smash" />
+		<rect x="4625" y="1050" w="100" h="100" type="smash" />
+		<rect x="4725" y="1050" w="100" h="100" type="smash" />
+		<rect x="4825" y="1050" w="100" h="100" type="smash" />
+		
+		<rect x="4425" y="1400" w="100" h="100" type="smash" />
+		<rect x="4525" y="1400" w="100" h="100" type="smash" />
+		<rect x="4625" y="1400" w="100" h="100" type="smash" />
+		<rect x="4725" y="1400" w="100" h="100" type="smash" />
+		<rect x="4475" y="1425" w="100" h="100" type="smash" />
+		<rect x="4575" y="1425" w="100" h="100" type="smash" />
+		<rect x="4675" y="1425" w="100" h="100" type="smash" />
+		
+		<rect x="4525" y="1800" w="100" h="100" type="smash" />
+		<rect x="4625" y="1800" w="100" h="100" type="smash" />
+		<rect x="4725" y="1800" w="100" h="100" type="smash" />
+		<rect x="4825" y="1800" w="100" h="100" type="smash" />
+		<rect x="4625" y="1810" w="100" h="100" type="smash" />
+		<rect x="4725" y="1810" w="100" h="100" type="smash" />
+		
+		<rect x="4425" y="2200" w="100" h="100" type="smash" />
+		<rect x="4525" y="2200" w="100" h="100" type="smash" />
+		<rect x="4625" y="2200" w="100" h="100" type="smash" />
+		<rect x="4725" y="2200" w="100" h="100" type="smash" />
+		
+		<rect x="4425" y="2600" w="100" h="100" type="smash" />
+		<rect x="4525" y="2650" w="100" h="100" type="smash" />
+		<rect x="4725" y="2650" w="100" h="100" type="smash" />
+		<rect x="4825" y="2600" w="100" h="100" type="smash" />
+		
+		<rect x="4625" y="3000" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="3200" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="3300" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="3400" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="3500" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="3600" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="3700" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="3800" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="3900" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="4000" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="4100" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="4200" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="4300" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="4400" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="4500" w="100" h="100" type="smash" />
+		<rect x="4425?4825" y="4600" w="100" h="100" type="smash" />
+		
+		<rect x="4425" y="4950" w="100" h="100" type="smash" />
+		<rect x="4525" y="4950" w="100" h="100" type="smash" />
+		<rect x="4625" y="4950" w="100" h="100" type="smash" />
+		<rect x="4725" y="4950" w="100" h="100" type="smash" />
+		<rect x="4825" y="4950" w="100" h="100" type="smash" />
+		<rect x="4425" y="5000" w="100" h="100" type="smash" />
+		<rect x="4525" y="5000" w="100" h="100" type="smash" />
+		<rect x="4625" y="5000" w="100" h="100" type="smash" />
+		<rect x="4725" y="5000" w="100" h="100" type="smash" />
+		<rect x="4825" y="5000" w="100" h="100" type="smash" />
+		<rect x="4425" y="5050" w="100" h="100" type="smash" />
+		<rect x="4525" y="5050" w="100" h="100" type="smash" />
+		<rect x="4625" y="5050" w="100" h="100" type="smash" />
+		<rect x="4725" y="5050" w="100" h="100" type="smash" />
+		<rect x="4825" y="5050" w="100" h="100" type="smash" />
+		
+		<!--smashable blocks [bottom-level]-->
+		<rect x="5650" y="4700" w="100" h="100" type="smash" />
+		<rect x="5850" y="4900" w="100" h="100" type="smash" />
+		<rect x="6000" y="4620" w="100" h="100" type="smash" />
+		<rect x="6200" y="4680" w="100" h="100" type="smash" />
+		<rect x="6400" y="4900" w="100" h="100" type="smash" />
+		<rect x="6600" y="4710" w="100" h="100" type="smash" />
+		<rect x="6950" y="4630" w="100" h="100" type="smash" />
+		<rect x="7100" y="4810" w="100" h="100" type="smash" />
+		<rect x="7250" y="4870" w="100" h="100" type="smash" />
+		
+		<!--bouncers [top-level]-->
+		<rect x="400" y="480" w="100" h="100" type="bounce" d="0,20" />
+		<rect x="1050" y="480" w="100" h="100" type="bounce" d="0,20" />
+		<rect x="1450" y="480" w="100" h="100" type="bounce" d="0,20" />
+		<rect x="2200" y="480" w="100" h="100" type="bounce" d="0,20" />
+		<rect x="2700" y="480" w="100" h="100" type="bounce" d="0,20" />
+		<rect x="3200" y="480" w="100" h="100" type="bounce" d="0,20" />
+		<rect x="3800" y="480" w="100" h="100" type="bounce" d="0,20" />
+		
+		<!--bouncers & kills [bottom-level]-->
+		<rect x="5700" y="5000" w="100" h="100" type="bounce" d="0,20" />
+		<rect x="6000" y="5000" w="200" h="100" type="kill" />
+		<rect x="6250" y="5000" w="100" h="100" type="bounce" d="0,20" />
+		<rect x="6450" y="4520" w="300" h="100" type="kill" />
+		<rect x="6750" y="5000" w="100" h="100" type="bounce" d="45,20" />
+		<rect x="7100" y="5000" w="500" h="100" type="kill" />
+	</surfaces>
+	<objects>
+		<boss id="megapatto" x="-300" y="240" />
+		<extra x="5150" y="240" r="100" id="skin1" />
+		<graphic id="hazard_lava" x="5100" y="4810" w="1" h="1" behind="true" />
+		<graphic id="hazard_patto" x="480" y="300" w="1" h="1" r="20" behind="true" />
+		<graphic id="hazard_bounce" x="1400" y="200" w="1" h="1" r="320" behind="true" />
+		<graphic id="arrow" x="2300" y="250" w="1" h="1" r="45" behind="true" />
+		<graphic id="arrow" x="4375" y="240" w="1" h="1" r="180" behind="true" />
+		<graphic id="arrow" x="4875" y="240" w="1" h="1" r="180" behind="true" />
+		<graphic id="arrow" x="4625" y="1200" w="1" h="1" r="135" behind="true" />
+		<graphic id="arrow" x="4625" y="1200" w="1" h="1" r="135" behind="true" />
+		<graphic id="arrow" x="4625" y="1600" w="1" h="1" r="225" behind="true" />
+		<graphic id="arrow" x="4625" y="2000" w="1" h="1" r="135" behind="true" />
+		<graphic id="arrow" x="4625" y="2400" w="1" h="1" r="180" behind="true" />
+		<graphic id="arrow" x="4625" y="4810" w="1" h="1" r="90" behind="true" />
+		<graphic id="arrow" x="5650" y="4900" w="1" h="1" r="45" behind="true" />
+		<graphic id="arrow" x="5850" y="4760" w="1" h="1" r="100" behind="true" />
+		<graphic id="arrow" x="6050" y="4820" w="1" h="1" r="120" behind="true" />
+		<graphic id="arrow" x="6260" y="4820" w="1" h="1" r="45" behind="true" />
+		<graphic id="arrow" x="6480" y="4790" w="1" h="1" r="135" behind="true" />
+		<graphic id="arrow" x="6850" y="4850" w="1" h="1" r="50" behind="true" />
+	</objects>
+</level>

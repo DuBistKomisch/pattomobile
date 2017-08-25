@@ -1,0 +1,59 @@
+<level grav="3" w="3000" h="10000" x="1500" y="9930" px="1500" py="100" bg="000040" col="008000" kill="FF0000" fake="004000" bounce="FF0080" ep="7" lv="7" name="It's raining Patto">
+	<desc>
+Patto's are falling from the sky!
+
+It the end of the world as we know it...
+
+The only way to survive is by escape!
+	</desc>
+	<surfaces>
+		<rect x="1500" y="10450" w="3000" h="1000" ghost="true" /><!--floor-->
+		<rect x="1500" y="-450" w="3000" h="1000" ghost="true" /><!--roof-->
+		<rect x="1500" y="10000" w="3000" h="80" type="bounce" d="0,20" /><!--bouncey floor-->
+		<rect x="-450" y="0" w="1000" h="20020" /><!--left wall-->
+		
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+		<rect x="3450" y="0" w="1000" h="20020" type="kill" />
+	</surfaces>
+	<objects>
+		<exit x="3200" y="5000" w="200" h="10020" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+		<patto type="bounce" x="100?1900" y="100?9900" vx="0" vy="0" />
+	</objects>
+</level>

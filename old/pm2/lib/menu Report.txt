@@ -1,0 +1,49 @@
+menu.swf Movie Report
+----------------------
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    ----------------
+      1          24346          24346    Scene 1 (AS 3.0 Classes Export Frame)
+
+Scene                        Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+Scene 1                                0             0                 16402
+
+Symbol                       Shape Bytes    Text Bytes    ActionScript Bytes
+-------------------------    -----------    ----------    ------------------
+menu_play                            365             0                     0
+menu_extras_skins                    549             0                     0
+menu_extras_stuff                    187             0                     0
+menu_play_new                        105             0                     0
+menu_play_load                       100             0                     0
+menu_extras                          193             0                     0
+menu_extras_cutscenes                105             0                     0
+menu_highscores_replays              121             0                     0
+menu_highscores_downloaded           452             0                     0
+menu_play_download                   168             0                     0
+menu_highscores                      202             0                     0
+menu_highscores_besttimes            231             0                     0
+menu_info_license                    189             0                     0
+menu_info_contact                    100             0                     0
+menu_info                            145             0                     0
+menu_info_credits                    245             0                     0
+menu_config                          228             0                     0
+menu_config_controls                 242             0                     0
+menu_config_output                   255             0                     0
+menu_config_general                   98             0                     0
+menu_title                             0            93                     0
+menu_subtitle                          0            57                     0
+
+Font Name                 Bytes        Characters    
+----------------------    ---------    --------------
+FFFHarmony  40 pts              810     'CHLOSTU
+FFFHarmony  80 pts              711    Pabeilmot
+LucidaHandwriting-Italic Bold 180 pts      648    I
+
+ActionScript Bytes    Location
+------------------    --------
+             16402    Scene 1:Frame 1
+
+
+
+

@@ -1,0 +1,96 @@
+<level grav="3" w="2500" h="1000" x="-100" y="150" px="-100" py="100" bg="999999" col="CCCCCC" kill="FF0000" bounce="FF0080" fake="CCCCCC" ep="3" lv="3" name="Skilltester">
+	<desc>
+You're nearly out!
+
+Just some really big jumps and stuff in the way...
+
+* Try to get Patto out first, because it's not always possible
+* The smoother you take off the more chance you have of making the jumps
+* Let the boosts do the work, especially on the last jump!
+	</desc>
+	<surfaces>
+		<rect x="-25" y="1100" w="100" h="1820" r="0" /><!--left wall-->
+		<rect x="-175" y="100" w="50" h="200" r="0" /><!--left wall-->
+		<rect x="2525" y="400" w="100" h="820" r="0" /><!--right wall-->
+		<rect x="1500" y="1000" w="3000" h="50" r="0" /><!--floor-->
+		<rect x="1500" y="0" w="3000" h="50" r="0" /><!--roof-->
+		<rect x="-150" y="200" w="350" h="50" r="0" /><!--left roof-->
+		<rect x="-150" y="0" w="350" h="50" r="0" /><!--left roof-->
+		<rect x="1500" y="510" w="100" h="850" /><!--middle wall-->
+		<rect x="2500" y="892.5" w="100" h="165" id="1" col="666666" /><!--door-->
+		
+		<!--level 1-->
+		<rect x="312.5" y="300" w="625" h="50" />
+		<rect x="1112.5" y="300" w="425" h="50" />
+		<rect x="667" y="292" w="100" h="50" r="170"/>
+		<rect x="857" y="292" w="100" h="50" r="10"/>
+		
+		<!--level 2-->
+		<rect x="387.5" y="425" w="375" h="50" />
+		<rect x="1237.5" y="425" w="575" h="50" />
+		<rect x="617" y="413" w="100" h="50" r="165"/>
+		<rect x="908" y="413" w="100" h="50" r="15"/>
+		
+		<!--level 3-->
+		<rect x="12.5" y="550" w="25" h="50" type="bounce" d="90,20"/>
+		<rect x="262.5" y="575" w="525" h="50" />
+		<rect x="1162.5" y="575" w="325" h="50" />
+		<rect x="564" y="559" w="100" h="50" r="160"/>
+		<rect x="962" y="559" w="100" h="50" r="20"/>
+		
+		<!--level 4-->
+		<rect x="1462.5" y="725" w="25" h="50" type="bounce" d="270,25"/>
+		<rect x="337.5" y="750" w="275" h="50" />
+		<rect x="1287.5" y="750" w="475" h="50" />
+		<rect x="510" y="731" w="100" h="50" r="155"/>
+		<rect x="1015" y="731" w="100" h="50" r="25"/>
+		
+		<!--level 5-->
+		<rect x="12.5" y="962.5" w="25" h="25" type="bounce" d="90,35"/>
+		<rect x="750" y="1000" w="800" h="50" type="kill" />
+		<rect x="364" y="972" w="100" h="50" r="150"/>
+		<rect x="1132" y="972" w="100" h="50" r="30"/>
+		
+		<!--balls of death-->
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+		<circ x="1600?2450" y="150?750" r="25" type="kill" />
+	</surfaces>
+	<objects>
+		<exit x="2650" y="900" w="100" h="300" />
+		<switch x="2425" y="750" id="1" />
+		<graphic id="arrow" x="762" y="590" w="1" h="1" r="180" behind="true" />
+		<graphic id="hazard_lava" x="762" y="600" w="1" h="1" r="0" behind="true" />
+		<graphic id="arrow" x="772" y="150" w="1" h="1" r="90" behind="true" />
+		<graphic id="hazard_balls" x="762" y="200" w="1" h="1" r="0" behind="true" />
+	</objects>
+</level>1=

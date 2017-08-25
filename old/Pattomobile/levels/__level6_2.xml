@@ -1,0 +1,60 @@
+<level grav="3" w="4000" h="480" x="50" y="435" bg="CC6600" col="008000" kill="FF0000" bounce="FF0080" fake="884400" ep="6" lv="2" name="King of the Jungle">
+	<desc>
+These laser-pattos look a lot smarter than those other guys!
+
+Those must have been the dumb clones...
+
+And I thought the real Patto was ugly!
+
+You better find a way past these clones and get to the Patto-Factory fast...
+	</desc>
+	<surfaces>
+		<rect x="-25" y="240" w="50" h="1000" /><!--left wall-->
+		<rect x="320" y="480" w="640" h="50" /><!--floor 1-->
+		<rect x="880" y="580" w="480" h="50" type="kill" />
+		<rect x="1450" y="480" w="900" h="50" /><!--floor 2-->
+		<rect x="2050" y="580" w="300" h="50" type="kill" />
+		<rect x="3200" y="480" w="2000" h="50" /><!--floor 3-->
+		
+		<!--bounces-->
+		<rect x="480" y="480" w="100" h="50" type="bounce" d="0,15"/>
+		<rect x="1200" y="480" w="100" h="50" type="bounce" d="0,20"/>
+		<rect x="1800" y="480" w="100" h="50" type="bounce" d="0,15"/>
+		<rect x="2450" y="480" w="100" h="50" type="bounce" d="0,20"/>
+		<rect x="3050" y="480" w="100" h="50" type="bounce" d="0,20"/>
+		
+		<!--tree 1-->
+		<rect x="1500" y="290" w="100" h="330" col="884400" />
+		<circ x="1500" y="75" r="100" />
+		
+		<!--tree 2-->
+		<rect x="2800" y="305" w="100" h="300" col="994400" />
+		<rect x="2700" y="255" w="200" h="75" col="994400" />
+		<rect x="2875" y="305" w="150" h="75" col="994400" />
+		
+		<!--tree 3-->
+		<rect x="3350" y="255" w="100" h="400" col="994400" />
+		<rect x="3250" y="305" w="200" h="75" col="994400" />
+		<rect x="3425" y="255" w="150" h="75" col="994400" />
+		
+		<!--tree 4-->
+		<rect x="3900" y="90" w="100" h="730" type="fake" col="884400" />
+		<rect x="3900" y="90" w="100" h="730" col="884400" id="1" />
+		<circ x="3900" y="75" r="100" />
+	</surfaces>
+	<objects>
+		<exit x="4150" y="240" w="100" h="500" />
+		<graphic id="evening" x="0" y="0" w="1" h="1" r="0" fixed="true" />
+		<patto type="laser" x="480" y="100" minx="0" maxx="1450" int="150" />
+		<patto type="laser" x="1200" y="200" minx="0" maxx="1450" int="180" />
+		<patto type="laser" x="1700" y="150" minx="1610" maxx="4000" int="120" />
+		<patto type="laser" x="2500" y="75" minx="2200" maxx="4000" int="180" />
+		<patto type="laser" x="3000" y="200" minx="2000" maxx="4000" int="150" />
+		<patto type="laser" x="3750" y="100" minx="2000" maxx="4000" int="150" />
+		<patto type="laser" x="3750" y="200" minx="2000" maxx="4000" int="120" />
+		<switch id="1" x="3450" y="370" />
+		<graphic id="window" x="240" y="350" w="20" h="300" behind="true" r="0" />
+		<graphic id="hazard_patto" x="240" y="200" w="1" h="1" r="0" behind="true" />
+		<graphic id="hazard_bounce" x="240" y="320" w="1" h="1" r="0" behind="true" />
+	</objects>
+</level>1i

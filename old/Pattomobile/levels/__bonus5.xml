@@ -1,0 +1,121 @@
+<level grav="1" w="1920" h="960" x="320" y="720" px="1600" py="720" bg="000000" col="808080" kill="FF0000" bounce="FF0080" move="FF0000" ep="7" lv="5" name="Anti-gravity Chamber">
+	<desc>
+The rematch of the century!
+
+Can you defeat the Blue Ghost Minion again?
+
+This low-gravity means the Pattomobile can fly!
+	</desc>
+	<surfaces>
+		<rect x="0" y="2010" w="100" h="2000" />
+		<rect x="1920" y="2010" w="100" h="2000" />
+		<rect x="960" y="3060" w="1920" h="100" />
+		<!--room #1: Pattomobile start (640x480)-->
+		<rect x="0" y="720" w="100" h="480" />
+		<rect x="640" y="575" w="100" h="190" />
+		<rect x="640" y="720" w="100" h="100" id="5" />
+		<rect x="640" y="890" w="100" h="240" />
+		<rect x="135" y="480" w="270" h="100" />
+		<rect x="320" y="480" w="100" h="100" id="3" />
+		<rect x="505" y="480" w="270" h="100" />
+		<rect x="320" y="960" w="640" h="100" />
+		<!--room #2: Patto start (640x480)-->
+		<rect x="1920" y="720" w="100" h="480" />
+		<rect x="1280" y="575" w="100" h="190" />
+		<rect x="1280" y="720" w="100" h="100" id="1" />
+		<rect x="1280" y="890" w="100" h="240" />
+		<rect x="1600" y="480" w="640" h="100" />
+		<rect x="1600" y="960" w="640" h="100" />
+		<!--room #3: Balls of Death (640x480)-->
+		<rect x="775" y="480" w="270" h="100" />
+		<rect x="960" y="480" w="100" h="100" id="2" />
+		<rect x="1145" y="480" w="270" h="100" />
+		<circ x="690?1230" y="530?910" r="25" type="kill" id="5" />
+		<circ x="1100?1230" y="530?670" r="25" type="kill" id="5" />
+		<circ x="690?910" y="530?910" r="25" type="kill" id="5" />
+		<circ x="690?1230" y="770?910" r="25" type="kill" id="5" />
+		<circ x="1100?1230" y="530?670" r="25" type="kill" id="5" />
+		<circ x="690?910" y="530?910" r="25" type="kill" id="5" />
+		<circ x="690?1230" y="770?910" r="25" type="kill" id="5" />
+		<circ x="1100?1230" y="530?670" r="25" type="kill" id="5" />
+		<circ x="690?910" y="530?910" r="25" type="kill" id="5" />
+		<circ x="690?1230" y="770?910" r="25" type="kill" id="5" />
+		<rect x="960" y="960" w="540" h="100" type="kill" id="5" />
+		<!--room #4: Switch #3 (640x480)-->
+		<rect x="640" y="240" w="100" h="480" />
+		<rect x="1280" y="95" w="100" h="190" />
+		<rect x="1280" y="240" w="100" h="100" id="4" />
+		<rect x="1280" y="385" w="100" h="190" />
+		<rect x="960" y="0" w="640" h="100" />
+		<!--room #5: Switch #4 (640x480)-->
+		<rect x="0" y="240" w="100" h="480" />
+		<rect x="320" y="0" w="640" h="100" />
+		<move x="75?565" y="230" w="50" h="50" r="0" type="rect" minx="75" maxx="565" miny="320" maxy="320" d="90" s="3" m="reverse" />
+		<move x="75?565" y="310" w="50" h="50" r="0" type="rect" minx="75" maxx="565" miny="320" maxy="320" d="90" s="-4" m="reverse" />
+		<move x="75?565" y="390" w="50" h="50" r="0" type="rect" minx="75" maxx="565" miny="320" maxy="320" d="90" s="2" m="reverse" />
+		<!--room #6: Switch #5 (640x480)-->
+		<rect x="1600" y="0" w="640" h="100" />
+		<rect x="1920" y="240" w="100" h="480" />
+		<move x="1355?1845" y="160" w="50" h="50" r="0" type="rect" minx="1355" maxx="1845" miny="75" maxy="405" d="45" s="4" m="reverse" />
+		<move x="1355?1845" y="320" w="50" h="50" r="0" type="rect" minx="1355" maxx="1845" miny="75" maxy="405" d="45" s="3" m="reverse" />
+	</surfaces>
+	<objects>
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="moon" x="160" y="150" w="1" h="1" fixed="true" />
+		<boss x="960" y="720" id="bgm" t="5"/>
+		<switch x="320" y="620" id="1" />
+		<switch x="1600" y="620" id="2" />
+		<switch x="960" y="140" id="3" />
+		<switch x="320" y="140" id="4" />
+		<switch x="1600" y="240" id="5" />
+	</objects>
+</level>10

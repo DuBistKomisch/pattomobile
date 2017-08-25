@@ -1,0 +1,25 @@
+<projectDescription>
+  <id>1263129539497</id>
+  <name>pm2</name>
+  <asVersion>0</asVersion>
+  <boundTemplate>file:///C|/Users/jake/AppData/Local/Adobe/Flash CS4/en/Configuration/Project/templates/boundClass_as3.as</boundTemplate>
+  <classTemplate>file:///C|/Users/jake/AppData/Local/Adobe/Flash CS4/en/Configuration/Project/templates/standardClass_as3.as</classTemplate>
+  <classPath>classes</classPath>
+  <defaultApp>file:///E|/flash/games/pm2/pm2.fla</defaultApp>
+  <rootURI>file:///D|/flash/games/pm2/</rootURI>
+  <flexSDK/>
+  <sources editable="false"/>
+  <libraries editable="false"/>
+  <externalLibraries editable="false"/>
+  <compileList editable="false">
+    <uri label="pm2.fla">file:///E|/flash/games/pm2/pm2.fla</uri>
+    <uri label="menu.fla">file:///E|/flash/games/pm2/lib/menu.fla</uri>
+    <uri label="screens.fla">file:///E|/flash/games/pm2/lib/screens.fla</uri>
+    <uri label="test.fla">file:///E|/flash/games/pm2/levels/test.fla</uri>
+  </compileList>
+  <recentFiles editable="false">
+    <uri label="pm2.as">file:///D|/flash/games/pm2/pm2.as</uri>
+    <uri label="Car.as">file:///D|/flash/games/pm2/classes/characters/Car.as</uri>
+  </recentFiles>
+  <locations editable="false"/>
+</projectDescription>

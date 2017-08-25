@@ -1,0 +1,140 @@
+<level grav="3" w="1920" h="1440" x="100" y="-40" px="960" py="720" bg="E0E0FF" col="808080" kill="FF0000" bounce="FF0080" ep="5" lv="3" name="The Freezer">
+	<desc>
+You've finally found Patto!
+
+But you've still got to break him out,
+
+That cage looks a bit stronger than the one you were kept in....
+
+Better put that new ability to good use!
+	</desc>
+	<surfaces>
+		<rect x="0" y="720" w="100" h="1460" /><!--left wall-->
+		<rect x="1920" y="795" w="100" h="1310" /><!--right wall-->
+		<rect x="1908.5" y="137" w="24" h="10" /><!--right wall lip-->
+		<rect x="1060" y="0" w="1720" h="100" ghost="true" /><!--ghost roof-->
+		<rect x="1060" y="0" w="1670" h="50" type="kill" /><!--kill roof-->
+		<rect x="960" y="1450" w="1920" h="80" /><!--floor-->
+		<rect x="960" y="1400" w="500" h="20" type="bounce" d="0,20" /><!--bounce floor-->
+		
+		<!--top section-->
+		<circ x="300" y="75?170" r="25" type="kill" ghost="true" />
+		<circ x="400" y="75?190" r="25" type="kill" ghost="true" />
+		<circ x="500" y="75?210" r="25" type="kill" ghost="true" />
+		<circ x="600" y="75?230" r="25" type="kill" ghost="true" />
+		<circ x="700" y="75?250" r="25" type="kill" ghost="true" />
+		<circ x="1620" y="150?170" r="25" type="kill" ghost="true" />
+		<circ x="1520" y="150?190" r="25" type="kill" ghost="true" />
+		<circ x="1420" y="150?210" r="25" type="kill" ghost="true" />
+		<circ x="1320" y="150?230" r="25" type="kill" ghost="true" />
+		<circ x="1220" y="150?250" r="25" type="kill" ghost="true" />
+		<rect x="400" y="300" w="800" h="200" r="10" />
+		<rect x="400" y="400" w="800" h="200" />
+		<rect x="1520" y="300" w="800" h="200" r="170" />
+		<rect x="1520" y="400" w="800" h="200" />
+		
+		<!--left section-->
+		<rect x="422.5" y="925" w="625" h="160" />
+		<rect x="710" y="1272.5" w="50" h="335" />
+		<rect x="147.5" y="1025" w="75" h="40" />
+		<rect x="710" y="1055" w="50" h="100" type="fake" col="808080" />
+		<rect x="735" y="895" w="70" h="70" r="45" />
+		<rect x="50" y="500" w="100" h="100" r="45" />
+		<rect x="435" y="1420" w="500" h="20" type="bounce" d="0,20" /><!--bounce floor-->
+		<rect x="435" y="1400" w="500" h="20" ghost="true" /><!--ghost floor-->
+		<rect x="435" y="1015" w="500" h="20" type="kill" /><!--kill roof-->
+		<rect x="435" y="1035" w="500" h="20" ghost="true" /><!--ghost roof-->
+		<!--death circles-->
+			<!--top-->
+			<circ x="135" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="185" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="235" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="285" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="335" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="385" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="435" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="485" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="535" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="585" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="635" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="685" y="525?820" r="25" type="kill" ghost="true" />
+			<!--bottom-->
+			<circ x="210" y="1200?1365" r="25" type="kill" ghost="true" id="1" />
+			<circ x="260" y="1200?1365" r="25" type="kill" ghost="true" id="1" />
+			<circ x="310" y="1200?1365" r="25" type="kill" ghost="true" id="1" />
+			<circ x="360" y="1200?1365" r="25" type="kill" ghost="true" id="1" />
+			<circ x="410" y="1200?1365" r="25" type="kill" ghost="true" id="1" />
+			<circ x="460" y="1200?1365" r="25" type="kill" ghost="true" id="1" />
+			<circ x="510" y="1100?1365" r="25" type="kill" ghost="true" id="1" />
+			<circ x="560" y="1100?1365" r="25" type="kill" ghost="true" id="1" />
+			<circ x="610" y="1100?1365" r="25" type="kill" ghost="true" id="1" />
+			<circ x="660" y="1100?1365" r="25" type="kill" ghost="true" id="1" />
+		<rect x="120" y="1390" w="20" h="100" r="0" />
+		<rect x="130" y="1360" w="28.5" h="28.5" r="45" />
+		<rect x="150" y="1390" w="42.5" h="42.5" r="45" />
+		<rect x="80" y="1420" w="60" h="20" type="bounce" d="0,30" />
+		<rect x="147.5" y="1400" w="75" h="20" />
+		
+		<!--right section-->
+		<rect x="1497.5" y="925" w="625" h="160" />
+		<rect x="1210" y="1272.5" w="50" h="335" />
+		<rect x="1772.5" y="1025" w="75" h="40" />
+		<rect x="1210" y="1055" w="50" h="100" type="fake" col="808080" />
+		<rect x="1185" y="895" w="70" h="70" r="45" />
+		<rect x="1870" y="500" w="100" h="100" r="45" />
+		<rect x="1485" y="1420" w="500" h="20" type="bounce" d="0,20" /><!--bounce floor-->
+		<rect x="1485" y="1400" w="500" h="20" ghost="true" /><!--ghost floor-->
+		<rect x="1485" y="1015" w="500" h="20" type="kill" /><!--kill roof-->
+		<rect x="1485" y="1035" w="500" h="20" ghost="true" /><!--ghost roof-->
+		<!--death circles-->
+			<!--top-->
+			<circ x="1785" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1735" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1685" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1635" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1585" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1535" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1485" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1435" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1385" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1335" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1285" y="525?820" r="25" type="kill" ghost="true" />
+			<circ x="1235" y="525?820" r="25" type="kill" ghost="true" />
+			<!--bottom-->
+			<circ x="1710" y="1200?1365" r="25" type="kill" ghost="true" id="2" />
+			<circ x="1660" y="1200?1365" r="25" type="kill" ghost="true" id="2" />
+			<circ x="1610" y="1200?1365" r="25" type="kill" ghost="true" id="2" />
+			<circ x="1560" y="1200?1365" r="25" type="kill" ghost="true" id="2" />
+			<circ x="1510" y="1200?1365" r="25" type="kill" ghost="true" id="2" />
+			<circ x="1460" y="1200?1365" r="25" type="kill" ghost="true" id="2" />
+			<circ x="1410" y="1100?1365" r="25" type="kill" ghost="true" id="2" />
+			<circ x="1360" y="1100?1365" r="25" type="kill" ghost="true" id="2" />
+			<circ x="1310" y="1100?1365" r="25" type="kill" ghost="true" id="2" />
+			<circ x="1260" y="1100?1365" r="25" type="kill" ghost="true" id="2" />
+		<rect x="1800" y="1390" w="20" h="100" r="0" />
+		<rect x="1790" y="1360" w="28.5" h="28.5" r="45" />
+		<rect x="1770" y="1390" w="42.5" h="42.5" r="45" />
+		<rect x="1840" y="1420" w="60" h="20" type="bounce" d="0,30" />
+		<rect x="1772.5" y="1400" w="75" h="20" />
+		
+		<!--patto's cage-->
+		<rect x="960" y="520" w="450" h="50" col="6699CC" ghost="true" id="1" />
+		<rect x="960" y="520" w="450" h="50" col="6699CC" ghost="true" id="2" />
+		<rect x="960" y="920" w="450" h="50" col="6699CC" id="99" />
+		<rect x="960" y="920" w="450" h="50" col="6699CC" ghost="true" />
+		<rect x="760" y="720" w="50" h="450" col="6699CC" ghost="true" />
+		<rect x="1160" y="720" w="50" h="450" col="6699CC" ghost="true" />
+		<rect x="835" y="920" w="100" h="50" type="bounce" d="0,40" id="-1" />
+		<rect x="1085" y="920" w="100" h="50" type="bounce" d="0,40" id="-2" />
+	</surfaces>
+	<objects>
+		<exit x="2020" y="200" w="100" h="5000" />
+		<graphic id="icecave" x="785" y="545" w=".55" h="0.73" behind="true" />
+		<switch x="610" y="1220" id="1" />
+		<switch x="1310" y="1220" id="2" />
+		<switch x="960" y="1100" id="99" />
+		<extra x="960" y="1301" r="50" id="level7_8" />
+		<graphic id="hazard_lava" x="960" y="225" w="1" h="1" r="0" behind="true" />
+		<graphic id="hazard_balls" x="960" y="425" w="1" h="1" r="0" behind="true" />
+	</objects>
+</level>1Y

@@ -1,0 +1,38 @@
+<level grav="3" w="6500" h="480" x="-100" y="300" bg="0080FF" col="00FF00" kill="0000FF" bounce="FF00FF" ep="2" lv="2" name="Free at Last">
+	<desc>
+Fresh Air!
+
+Only one mission remains:
+
+Find your owner, Patto!
+
+* Outdoor levels are usually a lot more open, and involve lots of jumps ;)
+* Falling in the rivers will kill you! (in case it wasn't obvious)
+	</desc>
+	<surfaces>
+		<rect x="-200" y="240" w="50" h="480" r="0" /><!--left wall-->
+		<rect x="0" y="400" w="1000" h="200" r="20" /><!--left ramp-->
+		<rect x="3250" y="480" w="7000" h="100" r="0" /><!--floor-->
+		
+		<rect x="1500" y="480" w="400" h="150" r="0" type="kill" />
+		<rect x="1250" y="480" w="250" h="150" r="160" />
+		<rect x="1750" y="480" w="250" h="150" r="20" />
+		
+		<rect x="2800" y="480" w="500" h="150" r="0" type="kill" />
+		<rect x="2450" y="480" w="250" h="150" r="160" />
+		<rect x="3150" y="480" w="250" h="150" r="20" />
+		
+		<!--islands-->
+		<rect x="4350" y="430" w="200" h="150" r="160" />
+		<rect x="4950" y="430" w="200" h="150" r="170" />
+		<rect x="4950" y="430" w="100" h="150" r="170" type="bounce" d="80,10" />
+		<rect x="5700" y="430" w="150" h="100" r="170" />
+		
+		<rect x="4750" y="480" w="2300" h="150" r="0" type="kill" />
+		<rect x="3500" y="480" w="300" h="150" r="160" />
+		<rect x="6000" y="480" w="300" h="150" r="20" />
+	</surfaces>
+	<objects>
+		<exit x="6750" y="240" w="100" h="500" />
+	</objects>
+</level>1S

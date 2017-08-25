@@ -1,0 +1,52 @@
+<level grav="3" w="10000" h="480" x="-100" y="300" bg="0080FF" col="00FF00" kill="0000FF" ep="6" lv="3" name="Armada">
+	<desc>
+You're almost at the Patto-Factory,
+
+Once you get there you just need to find a way to shut it down!
+
+What are these hideous abominations? Oh, more pattos...
+
+These ones look pretty dangerous though!
+	</desc>
+	<surfaces>
+		<rect x="-200" y="240" w="50" h="480" r="0" /><!--left wall-->
+		<rect x="0" y="400" w="1000" h="200" r="20" /><!--left ramp-->
+		<rect x="5000" y="480" w="11000" h="100" r="0" /><!--floor-->
+		
+		<rect x="1500" y="480" w="400" h="150" r="0" type="kill" />
+		<rect x="1250" y="480" w="250" h="150" r="160" />
+		<rect x="1750" y="480" w="250" h="150" r="20" />
+		
+		<rect x="2800" y="480" w="500" h="150" r="0" type="kill" />
+		<rect x="2450" y="480" w="250" h="150" r="160" />
+		<rect x="3150" y="480" w="250" h="150" r="20" />
+		
+		<rect x="3900" y="480" w="600" h="150" r="0" type="kill" />
+		<rect x="3500" y="480" w="300" h="150" r="160" />
+		<rect x="4300" y="480" w="300" h="150" r="20" />
+		
+		<rect x="5500" y="480" w="800" h="150" r="0" type="kill" />
+		<rect x="5000" y="480" w="300" h="150" r="160" />
+		<rect x="6000" y="480" w="300" h="150" r="20" />
+		
+		<rect x="7100" y="480" w="1000" h="150" r="0" type="kill" />
+		<rect x="6500" y="480" w="300" h="150" r="160" />
+		<rect x="7700" y="480" w="300" h="150" r="20" />
+		
+		<rect x="8900" y="480" w="1000" h="150" r="0" type="kill" />
+		<rect x="8300" y="480" w="300" h="150" r="160" />
+		<rect x="9500" y="480" w="300" h="150" r="20" />
+	</surfaces>
+	<objects>
+		<exit x="10250" y="240" w="100" h="1000" />
+		<extra x="4650" y="50" r="50" id="level7_9" />
+		<patto type="kamikaze" x="450" y="200" n="8" />
+		<patto type="kamikaze" x="2000" y="350" n="8" />
+		<patto type="kamikaze" x="4000" y="100" n="8" />
+		<patto type="kamikaze" x="6000" y="350" n="8" />
+		<patto type="kamikaze" x="9000" y="300" n="16" />
+		<graphic id="window" x="480" y="350" w="20" h="300" behind="true" r="0" />
+		<graphic id="hazard_patto" x="480" y="200" w="1" h="1" r="0" behind="true" />
+		<graphic id="hazard_balls" x="480" y="320" w="1" h="1" r="0" behind="true" />
+	</objects>
+</level>1Y

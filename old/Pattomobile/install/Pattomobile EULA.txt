@@ -1,0 +1,17 @@
+-=- Pattomobile End User License Agreement -=-
+
+Pattomobile - "the Product"
+Jake Barnes - "the Author"
+You - "the User"
+
+Term 1: The Product may only be distributed by the User as long as it is in the form of this original Installation Program and does not conflict with any of the following terms.
+
+Term 2: The Product may not be sold or resold, distributed as a part of any commercial package, used in a commercial environment, used or distributed in support of a commercial service, or used or distributed to support any kind of profit-generating activity, even if it is being distributed freely, without prior written permission from the Author.
+
+Term 3: You may not use, copy, emulate, clone, rent, lease, sell, modify, decompile, disassemble, otherwise reverse engineer, or transfer the Product, or any subset of the Product, except as provided for in this agreement.
+
+Term 4: The Product is provided "AS IS", and without warranty of any kind, either express or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the Product is with the User. Should the Product prove defective, the User assumes the cost of all necessary servicing, repair or correction. In no event shall the Author be held liable for any damages whatsoever (including, without limitation, direct, indirect, incidental, consequential, exemplary, punitive, loss of business profits or special damages) arising out of use or inability to use the Product, even if the Author has been advised of the possibility of such damages.
+
+Term 5: The Author retains the right to modify these terms at any time, and without prior notice.
+
+Term 6: Upon infringement of any of these terms by the User, the Author may legally request the sum of $10 to be paid directly to the Author.

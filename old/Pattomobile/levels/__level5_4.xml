@@ -1,0 +1,98 @@
+<level grav="2" w="6000" h="480" x="-65" y="260" bg="000020" col="008000" kill="FF0000" bounce="FF0080" move="FF0000" ep="5" lv="4" name="High Flyer">
+	<desc>
+Patto and The Boss are dead!
+
+Thank god it's all over... but what did he mean 'You're too late'?
+
+You're out of the complex for the last time, all you've got to do is get past their outer defense systems.
+
+Then maybe you can get some sleep...
+	</desc>
+	<surfaces>
+		<rect x="0" y="-350" w="100" h="1000" col="808080" /><!--left wall top-->
+		<rect x="-170" y="280" w="100" h="200" col="808080" /><!--left wall back-->
+		<rect x="-90" y="305" w="180" h="50" col="808080" /><!--left wall floor-->
+		<rect x="-90" y="125" w="180" h="50" col="808080" /><!--left wall roor-->
+		<rect x="0" y="380" w="100" h="200" col="808080" /><!--left wall bottom-->
+		<rect x="3000" y="550" w="6000" h="50" type="kill" /><!--kill floor-->
+		
+		<rect x="300" y="480" w="600" h="100" /><!--grass 1-->
+		<rect x="1300" y="480" w="600" h="100" /><!--grass 2-->
+		<rect x="1600" y="450" w="100" h="50" r="175" /><!--ramp 1-->
+		<rect x="2000" y="450" w="100" h="50" r="5" /><!--ramp 2-->
+		<rect x="3000" y="480" w="2000" h="100" /><!--grass 3-->
+		<move x="2300" y="380" w="150" h="100" r="0" type="rect" minx="2100" maxx="2500" miny="380" maxy="380" d="90" s="4" m="reverse" />
+		<move x="2900" y="380" w="150" h="100" r="0" type="rect" minx="2500" maxx="2900" miny="380" maxy="380" d="270" s="4" m="reverse" />
+		<move x="3100" y="380" w="150" h="100" r="0" type="rect" minx="2900" maxx="3300" miny="380" maxy="380" d="270" s="4" m="reverse" />
+		<move x="3300" y="380" w="150" h="100" r="0" type="rect" minx="3300" maxx="3700" miny="380" maxy="380" d="90" s="4" m="reverse" />
+		<rect x="2500" y="380" w="100" h="110" />
+		<rect x="2900" y="380" w="100" h="110" />
+		<rect x="3300" y="380" w="100" h="110" />
+		<rect x="4000" y="450" w="100" h="50" r="175" /><!--ramp 3-->
+		<rect x="4400" y="450" w="100" h="50" r="5" /><!--ramp 4-->
+		<rect x="5200" y="480" w="1600" h="100" /><!--grass 4-->
+		<move x="4800?5000" y="115?315" w="150" h="150" r="0" type="rect" minx="4600" maxx="5200" miny="75" maxy="355" d="45" s="4" m="reverse" />
+		<move x="5100?5300" y="115?315" w="150" h="150" r="0" type="rect" minx="4900" maxx="5500" miny="75" maxy="355" d="45" s="6" m="reverse" />
+		<move x="5400?5600" y="115?315" w="150" h="150" r="0" type="rect" minx="5200" maxx="5800" miny="75" maxy="355" d="45" s="8" m="reverse" />
+	</surfaces>
+	<objects>
+		<exit x="6150" y="240" w="100" h="5000" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="star" x="0?640" y="0?480" w="1" h="1" fixed="true" />
+		<graphic id="moon" x="160" y="150" w="1" h="1" fixed="true" />
+		
+		<graphic id="star" x="500" y="80" w="2" h="2" fixed="true" />
+		<graphic id="star" x="500" y="130" w="2" h="2" fixed="true" />
+		<graphic id="star" x="480" y="100" w="2" h="2" fixed="true" />
+		<graphic id="star" x="520" y="100" w="2" h="2" fixed="true" />
+		<graphic id="star" x="510" y="110" w="1" h="1" fixed="true" />
+	</objects>
+</level>1;

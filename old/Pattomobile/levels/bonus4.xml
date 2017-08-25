@@ -1,0 +1,226 @@
+<level grav="3" w="2000" h="2000" x="110" y="-400" px="210" py="1900" bg="C0C0C0" col="808080" kill="FF0000" bounce="FF0080" ep="7" lv="4" name="This is just getting ridiculous!">
+	<desc>
+The most hated enemy in the game wants revenge...
+
+Guide patto through this maze of randomly placed red balls of lava!
+
+You'll need some l33t flying skills to get past this level.
+
+(And don't blame me if you get RSI from doing this...)
+	</desc>
+	<surfaces>
+		<rect x="0" y="850" w="100" h="2600" />
+		<rect x="220" y="-250" w="100" h="400" />
+		<rect x="2000" y="1000" w="100" h="2020" />
+		<rect x="1085" y="0" w="1830" h="100" />
+		<rect x="110" y="-500" w="320" h="100" />
+		<rect x="1085" y="2050" w="1830" h="200" />
+		<rect x="110" y="1000" w="120" h="1400" id="1" />
+		
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" />
+		
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="100?1000" r="25" type="kill" id="-1" />
+		<circ x="200?1000" y="1000?1900" r="25" type="kill" id="-1" />
+		<circ x="1000?1800" y="1000?1900" r="25" type="kill" id="-1" />
+	</surfaces>
+	<objects>
+		<exit x="110" y="2200" w="100" h="50" />
+		<switch x="1900" y="1000" id="1" />
+	</objects>
+</level>

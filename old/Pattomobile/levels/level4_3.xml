@@ -1,0 +1,47 @@
+<level grav="3" w="5000" h="480" x="-100" y="410" bg="FFFF00" col="808000" kill="FF0000" bounce="FF0080" move="FF0000" ep="4" lv="3" name="The Hellevator">
+	<desc>
+As time passes the landscape becomes more and more surreal...
+
+More jumps, no way!
+
+Here we go again...
+
+* The way to get past this level is similar to 2-3
+* You've got to keep your speed up to get over the jumps
+	</desc>
+	<surfaces>
+		<rect x="0" y="190" w="100" h="400" r="0" /><!--left wall-->
+		<rect x="5000" y="240" w="100" h="500" r="0" /><!--right wall-->
+		<rect x="2000" y="630" w="4000" h="100" r="0" type="kill" /><!--kill-->
+		<rect x="-200" y="240" w="100" h="500" />
+		
+		<rect x="200" y="480" w="800" h="100" r="0" /><!--floor-->
+		<rect x="250" y="0" w="900" h="100" r="0" /><!--roof-->
+		<rect x="600" y="430" w="200" h="50" r="160" />
+		<move x="800" y="100" w="150" h="100" r="0" type="rect" minx="800" maxx="800" miny="-50" maxy="530" d="180" s="4" />
+		<move x="800" y="380" w="150" h="100" r="0" type="rect" minx="800" maxx="800" miny="-50" maxy="530" d="180" s="4" />
+		<rect x="1000" y="430" w="200" h="50" r="20" />
+		
+		<rect x="1400" y="480" w="800" h="100" r="0" /><!--floor-->
+		<rect x="1400" y="0" w="900" h="100" r="0" /><!--roof-->
+		<rect x="1800" y="430" w="200" h="50" r="160" />
+		<move x="2000" y="70" w="150" h="100" r="0" type="rect" minx="2000" maxx="2000" miny="-50" maxy="530" d="180" s="4" />
+		<move x="2000" y="350" w="150" h="100" r="0" type="rect" minx="2000" maxx="2000" miny="-50" maxy="530" d="180" s="4" />
+		<move x="2300" y="0" w="150" h="100" r="0" type="rect" minx="2300" maxx="2300" miny="-50" maxy="530" d="180" s="4" />
+		<move x="2300" y="280" w="150" h="100" r="0" type="rect" minx="2300" maxx="2300" miny="-50" maxy="530" d="180" s="4" />
+		<rect x="2500" y="430" w="200" h="50" r="20" />
+		
+		<rect x="2925" y="480" w="850" h="100" r="0" /><!--floor-->
+		<rect x="2950" y="0" w="1000" h="100" r="0" /><!--roof-->
+		<rect x="3350" y="430" w="200" h="50" r="160" />
+		<move x="3600" y="120" w="150" h="200" r="0" type="rect" minx="3600" maxx="3600" miny="-100" maxy="580" d="180" s="4" />
+		<move x="3800" y="290" w="150" h="200" r="0" type="rect" minx="3800" maxx="3800" miny="-100" maxy="580" d="180" s="4" />
+		<rect x="4050" y="430" w="200" h="50" r="20" />
+		
+		<rect x="4450" y="480" w="850" h="100" r="0" /><!--floor-->
+		<rect x="4475" y="0" w="1000" h="100" r="0" /><!--roof-->
+	</surfaces>
+	<objects>
+		<exit x="5000" y="680" w="500" h="100" />
+	</objects>
+</level>

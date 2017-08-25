@@ -1,0 +1,89 @@
+<level grav="3" w="640" h="3000" x="320" y="-40" bg="664422" col="996633" kill="FF0000" ep="2" lv="1" name="Underground">
+	<desc>
+You are out of the building!
+
+But you are now underground, you must find a way out!
+
+* This is the first level with circular surfaces in it
+* If you haven't already, check the 'EXTRAS' section of the menu, you may have unlocked some extras!
+	</desc>
+	<surfaces>
+		<rect x="100" y="0" w="200" h="100" r="0" />
+		<rect x="540" y="0" w="200" h="100" r="0" />
+		<rect x="0" y="1500" w="100" h="3020" r="0" /><!--left wall-->
+		<rect x="640" y="520" w="100" h="1060" r="0" /><!--right wall (top) -->
+		<rect x="640" y="1775" w="100" h="1250" r="0" /><!--right wall (middle) -->
+		<rect x="640" y="2675" w="100" h="350" r="0" /><!--right wall (bottom) -->
+		<rect x="500" y="3000" w="1000" h="100" r="0" /><!--floor-->
+		
+		<circ x="320" y="400" r="150" />
+		<rect x="455" y="650" w="270" h="50" r="0" type="kill" />
+		<rect x="320" y="600" w="100" h="400" r="0" />
+		<circ x="50" y="700" r="100" />
+		<circ x="320" y="900" r="150" />
+		<circ x="50" y="1200" r="100" />
+		<rect x="225" y="1250" w="450" h="100" r="0" />
+		<circ x="450" y="1250" r="50" />
+		
+		<circ x="50?590" y="1400?2200" r="25" type="kill" />
+		<circ x="50?590" y="1400?2200" r="25" type="kill" />
+		<circ x="50?590" y="1400?2200" r="25" type="kill" />
+		<circ x="50?590" y="1400?2200" r="25" type="kill" />
+		<circ x="50?590" y="1400?2200" r="25" type="kill" />
+		<circ x="50?590" y="1400?2200" r="25" type="kill" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		<circ x="50?590" y="1400?2200" r="25" />
+		
+		<rect x="125" y="2600" w="30" h="500" r="0" />
+		<rect x="215" y="2600" w="30" h="500" r="0" />
+		<rect x="305" y="2600" w="30" h="500" r="0" />
+		<rect x="100?330" y="2850" w="100" h="50" type="kill" />
+		
+		<rect x="430" y="2600" w="100" h="500" r="0" />
+		<rect x="535" y="2350" w="210" h="100" r="0" />
+		<rect x="740" y="2550" w="200" h="100" r="0" />
+		<rect x="840" y="1550" w="100" h="2000" r="0" />
+		<circ x="430" y="2350" r="50" />
+		<circ x="430" y="2850" r="50" />
+	</surfaces>
+	<objects>
+		<exit x="840" y="2950" w="100" h="300" />
+		<graphic id="cavespike" x="100" y="50" w="1" h="1" r="0" />
+		<graphic id="cavespike" x="175" y="50" w=".5" h=".5" r="0" />
+		<graphic id="cavespike" x="477.5" y="50" w=".75" h=".75" r="0" />
+		<graphic id="cavespike" x="540" y="50" w="1" h="1" r="0" />
+		<graphic id="cavespike" x="250" y="480" w="1" h="1" r="0" />
+		<graphic id="cavespike" x="250" y="1000" w=".5" h=".5" r="0" />
+		<graphic id="cavespike" x="350" y="1000" w="1" h="1" r="0" />
+		<graphic id="cavespike" x="150" y="1300" w="1.5" h="1" r="0" />
+		<graphic id="cavespike" x="300" y="1300" w="1" h=".75" r="0" />
+		<graphic id="cavespike" x="630" y="1050" w=".4" h=".5" r="0" />
+		<graphic id="cavespike" x="615" y="1050" w=".5" h=".4" r="0" />
+		<extra x="535" y="2450" r="50" id="level7_1" />
+		<graphic id="hazard_balls" x="320" y="200" w="1" h="1" behind="true" />
+	</objects>
+</level>1=

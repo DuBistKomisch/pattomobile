@@ -1,0 +1,11 @@
+<level grav="3" w="640" h="480" x="320" y="240" bg="8080FF" col="808080" kill="FF0000" bounce="FF0080" ep="7" lv="3" name="Skate Park">
+	<desc>
+
+	</desc>
+	<surfaces>
+		<halfpipe x="320" y="240" w="50" h="50" r="200" n="10" s="90" e="270" />
+	</surfaces>
+	<objects>
+		<exit x="" y="" w="" h="" />
+	</objects>
+</level>1=

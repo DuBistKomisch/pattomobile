@@ -1,0 +1,98 @@
+<level grav="3" w="6000" h="3000" x="320" y="240" bg="664422" col="996633" fake="FF0000" kill="FF0000" hover="0080FF" bounce="FF0080" ep="7" lv="9" name="When the laws of physics go out the window">
+	<desc>
+What do you get when I mess around with the physics in Pattomobile?
+
+A level full of wierd objects that do impossible things!
+
+As this level is highly experimental,
+
+don't expect everything to work perfectly or even be remotely realistic.
+	</desc>
+	<surfaces>
+		<rect x="0" y="1500" w="100" h="3020" />
+		<rect x="6000" y="-4285" w="100" h="11470" />
+		<rect x="6000" y="2510" w="100" h="1420" />
+		<circ x="6000" y="1800" r="50" />
+		
+		<rect x="500" y="1400" w="1000" h="100" />
+		<rect x="320" y="1375" w="200" h="50" r="0" type="hover" d="0,.5,500" />
+		
+		<rect x="3000" y="1400" w="2000" h="100" />
+		<rect x="3000" y="1375" w="1000" h="50" r="0" type="hover" d="0,.5,1000" />
+		
+		<bridge x="1168" y="1460" x2="1833" y2="1460" n="16" s=".8" />
+		<rect x="1058" y="1450" w="200" h="115" r="30" type="hover" d="30,.5,500" />
+		<rect x="1942" y="1450" w="200" h="115" r="330" type="hover" d="330,.5,500" />
+		
+		<bridge x="4168" y="1660" x2="5833" y2="1460" n="16" s=".7" />
+		<rect x="4058" y="1450" w="200" h="115" r="30" type="hover" d="30,.5,500" />
+		<rect x="5942" y="1450" w="200" h="115" r="330" type="hover" d="330,.5,500" />
+		<vine x="5885" y="1500" l="200" n="16" s=".8" col="0080FF" />
+		
+		<bridge x="2040" y="1840" x2="3928" y2="1700" n="32" s="1" />
+		<vine x="4068" y="1700" l="800" n="32" s=".8" />
+		<rect x="4068" y="1700" w="200" h="100" />
+		<circ x="4168" y="1700" r="50" />
+		<circ x="3968" y="1700" r="50" />
+		<vine x="1900" y="1840" l="800" n="16" s=".5" />
+		<rect x="1900" y="1840" w="200" h="100" />
+		<circ x="2000" y="1840" r="50" />
+		<circ x="1800" y="1840" r="50" />
+		
+		<squish s="0.5">
+			<p x="1800" y="1810" />
+			<p x="1700" y="1860" />
+			<p x="1600" y="1900" />
+			<p x="1500" y="1950" />
+			<p x="1400" y="2010" />
+			<p x="1300" y="2080" />
+			<p x="1200" y="2140" />
+			<p x="1100" y="2220" />
+			<p x="1000" y="2310" />
+			<p x="900" y="2360" />
+			<p x="800" y="2400" />
+			<p x="700" y="2440" />
+			<p x="600" y="2470" />
+			<p x="500" y="2500" />
+			<p x="450" y="2550" />
+			<p x="440" y="2650" />
+			<p x="500" y="2750" />
+			<p x="600" y="2800" />
+			<p x="800" y="2850" />
+			<p x="1200" y="2850" />
+			<p x="1450" y="2800" />
+			<p x="1650" y="2500" />
+			<p x="1800" y="2000" />
+			<p x="1900" y="1800" />
+		</squish>
+		<squish s="0.2">
+			<p x="-50" y="2700" />
+			<p x="100" y="2800" />
+			<p x="200" y="2850" />
+			<p x="250" y="2950" />
+			<p x="300" y="3000" />
+			<p x="300" y="3100" />
+			<p x="200" y="3200" />
+			<p x="100" y="3300" />
+			<p x="50" y="3400" />
+			<p x="-50" y="3050" />
+		</squish>
+		<rect x="3000" y="3200" w="6000" h="50" r="0" type="hover" d="0,.3,500" />
+	</surfaces>
+	<objects>
+		<graphic id="hazard" x="160" y="160" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="480" y="160" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="160" y="640" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="480" y="640" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="160" y="1120" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="480" y="1120" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="2750" y="160" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="3250" y="160" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="2750" y="640" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="3250" y="640" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="2750" y="1120" w="1" h="1" behind="true" />
+		<graphic id="hazard" x="3250" y="1120" w="1" h="1" behind="true" />
+		<graphic id="arrow" x="5800" y="1750" w="1" h="1" r="45" behind="true" />
+		<exit x="6200" y="1000" w="200" h="2020" />
+	</objects>
+</level>11

@@ -1,0 +1,49 @@
+<level grav='3' w='4000' h='2000' x='-100' y='150' px='-100' py='100' bg='999999' col='CCCCCC' kill='FF0000' bounce='FF0080' fake='CCCCCC' ep='3' lv='2' name='The Warehouse'><desc>As you leave the basement you enter Patto's warehouse...\n\n\n\nGet to the door in the roof to get out!\n\n\n\n* Use Patto to push around the boxes and make a path for the Pattomobile\n\n* Once the Pattomobile touches a pushable bounce box it will freeze where it is\n\n* Only the Pattomobile can collect an extra</desc>
+<surfaces>
+<rect x='-25' y='1100' w='100' h='1820' r='0' /><!--left wall-->
+<rect x='-175' y='100' w='50' h='200' r='0' /><!--left wall-->
+<rect x='4025' y='1000' w='100' h='2020' r='0' /><!--right wall-->
+<rect x='2000' y='2000' w='4000' h='50' r='0' /><!--floor-->
+<rect x='1450' y='0' w='3500' h='50' r='0' /><!--roof-->
+<rect x='-150' y='200' w='350' h='50' r='0' /><!--roof-->
+<rect x='3950' y='0' w='100' h='50' r='0' /><!--roof-->
+<rect x='3550' y='0' w='700' h='50' r='0' col='996633' id='2' /><!--roof door-->
+
+<rect x='250' y='500' w='100' h='1000' r='0' />
+<rect x='1050' y='750' w='100' h='1500' r='0' />
+<rect x='1550' y='600' w='100' h='1200' r='0' />
+<rect x='3050' y='930' w='100' h='860' r='0'/>
+<rect x='3050' y='250' w='100' h='500' r='0' id='1' />
+<rect x='3200' y='550' w='200' h='100' r='0' />
+<rect x='3900' y='550' w='200' h='100' r='0' />
+<rect x='2500' y='1850' w='3000' h='300' r='0' />
+<rect x='1750' y='1550' w='500' h='300' r='0' />
+<rect x='3250' y='1550' w='1500' h='300' r='0' />
+<rect x='500' y='1000' w='600' h='200' r='0' />
+<rect x='800' y='1925' w='70.71' h='70.71' r='45' />
+<rect x='650' y='800' w='120' h='50' r='0' type='bounce' d='0,40' f='true' />
+<rect x='1400' y='900' w='120' h='50' r='0' type='bounce' d='0,40' f='true' />
+<rect x='3400' y='475' w='300' h='50' r='0' type='bounce' d='0,80' f='true' />
+<rect x='425' y='1950' w='850' h='50' r='0' /><!--raised floor-->
+<rect x='1175' y='1675' w='350' h='50' r='0' /><!--raised floor-->
+<rect x='1400' y='1100' w='300' h='200' r='0' />
+
+<rect x='1750' y='1000' w='500' h='100' r='0' />
+<rect x='1700' y='800' w='150' h='150' r='0' f='true' col='664422' />
+<rect x='1900' y='800' w='150' h='150' r='0' f='true' col='664422' />
+<rect x='1800' y='600' w='150' h='150' r='0' f='true' col='664422' />
+<rect x='2750' y='1000' w='500' h='100' r='0' />
+<rect x='2700' y='800' w='150' h='150' r='0' f='true' col='664422' />
+<rect x='2900' y='800' w='150' h='150' r='0' f='true' col='664422' />
+<rect x='2800' y='600' w='150' h='150' r='0' f='true' col='664422' />
+<rect x='3750' y='1425' w='70.71' h='70.71' r='45' />
+<rect x='3350' y='1425' w='70.71' h='70.71' r='45' />
+</surfaces>
+<objects>
+<exit x='3550' y='-200' w='2000' h='100' />
+<switch x='3975' y='1350' id='1' />
+<switch x='3900' y='425' id='2' />
+<extra x='387.5' y='825' r='50' id='level7_4' />
+<graphic id='hazard_bounce' x='110' y='450' w='1' h='1' r='0' behind='true' />
+</objects>
+</level>

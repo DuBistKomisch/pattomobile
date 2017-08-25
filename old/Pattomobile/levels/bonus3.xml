@@ -1,0 +1,27 @@
+<level grav="3" w="1400" h="1120" x="180" y="-40" bg="8080FF" col="808080" kill="FF0000" bounce="FF0080" ep="7" lv="3" name="Skate Park">
+	<desc>
+What does the Pattomobile do when not transporting Patto?
+
+Skate, of course!
+	</desc>
+	<surfaces>
+		<rect x="60" y="855" w="120" h="310" />
+		<rect x="580" y="855" w="120" h="310" />
+		<rect x="320" y="1050" w="640" h="260" />
+		<rect x="120" y="920" w="160" h="160" r="45" />
+		<rect x="520" y="920" w="160" h="160" r="-45" />
+		<halfpipe x="320" y="720" w="40" h="20" r="200" n="20" s="270" e="450" />
+		<rect x="640" y="1120" w="300" h="275" r="45" />
+		<rect x="1280" y="1120" w="300" h="275" r="-45" />
+		<halfpipe x="960" y="800" w="40" h="40" r="320" n="40" s="270" e="450" />
+		<rect x="1340" y="560" w="120" h="10000" />
+		<rect x="60" y="555" w="120" h="10000" id="1" />
+		<rect x="60" y="555" w="120" h="10000" id="2" />
+		<rect x="1305" y="800" w="50" h="50" type="bounce" d="0,10" />
+	</surfaces>
+	<objects>
+		<switch x="320" y="420" id="1" />
+		<switch x="960" y="420" id="2" />
+		<exit x="-100" y="640" w="200" h="1120" />
+	</objects>
+</level>
