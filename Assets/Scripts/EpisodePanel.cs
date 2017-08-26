@@ -17,18 +17,17 @@ public class EpisodePanel : MonoBehaviour {
 
   void Start() {
     name = "Episode " + EpisodeNumber + " Panel";
-    transform.Translate(Vector3.down * (100 * episode));
-    transform.Find("Episode Title Left").GetComponent<Text>().text = "Episode " + EpisodeNumber + " -";
 
     // disable if episode locked
-    Text episodeTitleRight = transform.Find("Episode Title Right").GetComponent<Text>();
+    Text episodeTitle = transform.Find("Title").GetComponent<Text>();
+    episodeTitle.text = "Episode " + EpisodeNumber + " - ";
     if (SaveGame.IsLevelLocked(episode, 0)) {
-      episodeTitleRight.text = "Locked";
-      Color color = episodeTitleRight.color;
+      episodeTitle.text += "Locked";
+      Color color = episodeTitle.color;
       color.a = 0.5f;
-      episodeTitleRight.color = color;
+      episodeTitle.color = color;
     } else {
-      episodeTitleRight.text = episodeName;
+      episodeTitle.text += episodeName;
     }
 
     // add level buttons

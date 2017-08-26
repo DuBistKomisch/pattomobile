@@ -16,7 +16,6 @@ public class LevelButton : MonoBehaviour {
 
   void Start() {
     name = "Level " + LevelNumber + " Button";
-    transform.Translate(Vector3.right * (-105 + 70 * level));
     transform.Find("Text").GetComponent<Text>().text = LevelNumber;
 
     Button button = GetComponent<Button>();
