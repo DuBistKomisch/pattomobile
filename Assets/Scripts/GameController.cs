@@ -7,6 +7,11 @@ public class GameController : MonoBehaviour {
   public int episode;
   public int level;
 
+  public void Start() {
+    // speed up physics slightly
+    Time.timeScale = 1.33333f;
+  }
+
   public void RestartLevel() {
     SceneManager.LoadScene("Level_" + episode + "_" + level);
   }

@@ -6,23 +6,30 @@ using UnityEngine.SceneManagement;
 
 public class Car : CarPart {
   public GameController gameController;
-  public float damping;
   public float speed;
   public float maxSpeed;
 
-  private WheelJoint2D leftWheel;
-  private WheelJoint2D rightWheel;
+  private Rigidbody2D leftWheel;
+  private Rigidbody2D rightWheel;
 
   void Start() {
-    leftWheel = transform.Find("LeftWheel").GetComponent<WheelJoint2D>();
-    rightWheel = transform.Find("RightWheel").GetComponent<WheelJoint2D>();
+    leftWheel = transform.Find("LeftWheel").GetComponent<Rigidbody2D>();
+    rightWheel = transform.Find("RightWheel").GetComponent<Rigidbody2D>();
+
+    // since the wheels and axle are joined via bearings, we need to ignore collisions manually
+    Transform axle = transform.Find("Axle");
+    Physics2D.IgnoreCollision(leftWheel.GetComponent<CircleCollider2D>(), axle.GetComponent<BoxCollider2D>());
+    Physics2D.IgnoreCollision(rightWheel.GetComponent<CircleCollider2D>(), axle.GetComponent<BoxCollider2D>());
   }
 
   void FixedUpdate() {
-    JointMotor2D motor = leftWheel.motor;
-    motor.motorSpeed = Math.Min(Math.Max(-maxSpeed, motor.motorSpeed * damping + Input.GetAxis("Horizontal") * speed), maxSpeed);
-    leftWheel.motor = motor;
-    rightWheel.motor = motor;
+    float torque = -1.0f * Input.GetAxis("Horizontal") * speed;
+    if (Math.Abs(leftWheel.angularVelocity) < maxSpeed || Math.Sign(leftWheel.angularVelocity) != Math.Sign(torque)) {
+      leftWheel.AddTorque(torque);
+    }
+    if (Math.Abs(rightWheel.angularVelocity) < maxSpeed || Math.Sign(rightWheel.angularVelocity) != Math.Sign(torque)) {
+      rightWheel.AddTorque(torque);
+    }
   }
 
   public void OnTriggerEnter2D(Collider2D other) {
