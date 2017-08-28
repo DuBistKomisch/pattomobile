@@ -5,19 +5,27 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Car : CarPart {
-  public GameController gameController;
   public float speed;
   public float maxSpeed;
 
+  private GameController gameController;
   private Rigidbody2D leftWheel;
   private Rigidbody2D rightWheel;
+  private Transform axle;
+
+  public Vector3 Position {
+    get {
+      return axle.transform.position;
+    }
+  }
 
   void Start() {
+    gameController = GameObject.FindWithTag("GameController").GetComponent<GameController>();
     leftWheel = transform.Find("LeftWheel").GetComponent<Rigidbody2D>();
     rightWheel = transform.Find("RightWheel").GetComponent<Rigidbody2D>();
 
     // since the wheels and axle are joined via bearings, we need to ignore collisions manually
-    Transform axle = transform.Find("Axle");
+    axle = transform.Find("Axle");
     Physics2D.IgnoreCollision(leftWheel.GetComponent<CircleCollider2D>(), axle.GetComponent<BoxCollider2D>());
     Physics2D.IgnoreCollision(rightWheel.GetComponent<CircleCollider2D>(), axle.GetComponent<BoxCollider2D>());
   }
