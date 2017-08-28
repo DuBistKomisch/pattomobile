@@ -23,7 +23,7 @@ public class Car : CarPart {
   }
 
   void FixedUpdate() {
-    float torque = -1.0f * Input.GetAxis("Horizontal") * speed;
+    float torque = -1.0f * (Input.GetAxis("Horizontal") + Input.acceleration.x * 0.5f) * speed;
     if (Math.Abs(leftWheel.angularVelocity) < maxSpeed || Math.Sign(leftWheel.angularVelocity) != Math.Sign(torque)) {
       leftWheel.AddTorque(torque);
     }
